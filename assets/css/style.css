@@ -371,275 +371,6 @@ a:before{
 
 
 
-/*#b01 {*/
-/*    width: 220px;*/
-/*    height: 150px;*/
-/*    background-color: #3DA7F4;*/
-/*    position: absolute;*/
-/*    left: 210px;*/
-/*    top: calc(240% - 30px);*/
-/*    border: 2px solid black;*/
-/*    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;*/
-/*}*/
-
-/*#b02 {*/
-/*    width: 220px;*/
-/*    height: 150px;*/
-/*    position: absolute;*/
-/*    left: 170px;*/
-/*    top: calc(235% - 30px);*/
-/*    border: 2px solid black;*/
-/*}*/
-
-/*#connect {*/
-/*    width: 220px;*/
-/*    height: 150px;*/
-/*}*/
-
-/*#github {*/
-/*    width: 40px;*/
-/*    height: 40px;*/
-/*    position: absolute;*/
-/*    left: 393px;*/
-/*    top: calc(239% - 20px);*/
-/*}*/
-
-/*#pro01 {*/
-/*    position: absolute;*/
-/*    left: 170px;*/
-/*    top: calc(224% - 30px);*/
-/*    font-family: 'Phudu', cursive;*/
-/*    font-size: x-large;*/
-/*    !*color: #130f40;*!*/
-/*    background: linear-gradient(to right top,#D980FA,#0652DD);*/
-/*    -webkit-text-fill-color: transparent;*/
-/*    -webkit-background-clip:text;*/
-/*}*/
-
-/*#b03 {*/
-/*    width: 220px;*/
-/*    height: 150px;*/
-/*    background-color: #FFFFFF;*/
-/*    position: absolute;*/
-/*    left: 555px;*/
-/*    top: calc(240% - 30px);*/
-/*    border: 2px solid black;*/
-/*    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;*/
-/*}*/
-
-
-/*#b04 {*/
-/*    width: 220px;*/
-/*    height: 150px;*/
-/*    position: absolute;*/
-/*    left: 515px;*/
-/*    top: calc(235% - 30px);*/
-/*    border: 2px solid black;*/
-/*}*/
-
-/*#scms {*/
-/*    width: 220px;*/
-/*    height: 150px;*/
-/*}*/
-
-/*#github01 {*/
-/*    width: 40px;*/
-/*    height: 40px;*/
-/*    position: absolute;*/
-/*    left: 738px;*/
-/*    top: calc(239% - 20px);*/
-/*}*/
-
-
-/*#pro02 {*/
-/*    position: absolute;*/
-/*    left: 510px;*/
-/*    top: calc(224% - 30px);*/
-/*    font-family: 'Phudu', cursive;*/
-/*    font-size: x-large;*/
-/*    background: linear-gradient(to right top,#D980FA,#0652DD);*/
-/*    -webkit-text-fill-color: transparent;*/
-/*    -webkit-background-clip:text;*/
-/*}*/
-
-/*#b05 {*/
-/*    width: 220px;*/
-/*    height: 150px;*/
-/*    background-color: #3DA7F4;*/
-/*    position: absolute;*/
-/*    right: 250px;*/
-/*    top: calc(240% - 30px);*/
-/*    border: 2px solid black;*/
-/*    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;*/
-/*}*/
-
-/*#b06 {*/
-/*    width: 220px;*/
-/*    height: 150px;*/
-/*    position: absolute;*/
-/*    right: 290px;*/
-/*    top: calc(235% - 30px);*/
-/*    border: 2px solid black;*/
-/*}*/
-
-/*#chat {*/
-/*    width: 220px;*/
-/*    height: 150px;*/
-/*}*/
-
-/*#github02 {*/
-/*    width: 40px;*/
-/*    height: 40px;*/
-/*    position: absolute;*/
-/*    right: 252px;*/
-/*    top: calc(239% - 20px);*/
-/*}*/
-
-/*#pro03 {*/
-/*    position: absolute;*/
-/*    right: 280px;*/
-/*    top: calc(224% - 30px);*/
-/*    font-family: 'Phudu', cursive;*/
-/*    font-size: x-large;*/
-/*    background: linear-gradient(to right top,#D980FA,#0652DD);*/
-/*    -webkit-text-fill-color: transparent;*/
-/*    -webkit-background-clip:text;*/
-/*}*/
-
-/*#b07 {*/
-/*    width: 220px;*/
-/*    height: 150px;*/
-/*    background-color: #FFFFFF;*/
-/*    position: absolute;*/
-/*    left: 330px;*/
-/*    top: calc(280% - 30px);*/
-/*    border: 2px solid black;*/
-/*    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;*/
-/*}*/
-
-/*#b08 {*/
-/*    width: 220px;*/
-/*    height: 150px;*/
-/*    position: absolute;*/
-/*    left: 290px;*/
-/*    top: calc(275% - 30px);*/
-/*    border: 2px solid black;*/
-/*}*/
-
-
-/*#scms-layed {*/
-/*    width: 220px;*/
-/*    height: 150px;*/
-/*}*/
-
-/*#github03 {*/
-/*    width: 40px;*/
-/*    height: 40px;*/
-/*    position: absolute;*/
-/*    left: 493px;*/
-/*    top: calc(279% - 20px);*/
-/*}*/
-
-/*#pro04 {*/
-/*    position: absolute;*/
-/*    left: 290px;*/
-/*    top: calc(265% - 30px);*/
-/*    font-family: 'Phudu', cursive;*/
-/*    font-size: x-large;*/
-/*    background: linear-gradient(to right top,#D980FA,#0652DD);*/
-/*    -webkit-text-fill-color: transparent;*/
-/*    -webkit-background-clip:text;*/
-/*}*/
-
-
-/*#b09 {*/
-/*    width: 220px;*/
-/*    height: 150px;*/
-/*    background-color: #3DA7F4;*/
-/*    position: absolute;*/
-/*    left: 710px;*/
-/*    top: calc(280% - 30px);*/
-/*    border: 2px solid black;*/
-/*    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;*/
-/*}*/
-
-/*#b10 {*/
-/*    width: 220px;*/
-/*    height: 150px;*/
-/*    position: absolute;*/
-/*    left: 663px;*/
-/*    top: calc(275% - 30px);*/
-/*    border: 2px solid black;*/
-/*}*/
-/*#hms {*/
-/*    width: 220px;*/
-/*    height: 150px;*/
-/*}*/
-
-/*#github04 {*/
-/*    width: 40px;*/
-/*    height: 40px;*/
-/*    position: absolute;*/
-/*    left: 868px;*/
-/*    top: calc(279% - 20px);*/
-/*}*/
-
-/*#pro05 {*/
-/*    position: absolute;*/
-/*    left: 663px;*/
-/*    top: calc(265% - 30px);*/
-/*    font-family: 'Phudu', cursive;*/
-/*    font-size: x-large;*/
-/*    background: linear-gradient(to right top,#D980FA,#0652DD);*/
-/*    -webkit-text-fill-color: transparent;*/
-/*    -webkit-background-clip:text;*/
-/*}*/
-
-/*#b11 {*/
-/*    width: 220px;*/
-/*    height: 150px;*/
-/*    background-color: #FFFFFF;*/
-/*    position: absolute;*/
-/*    right: 140px;*/
-/*    top: calc(280% - 30px);*/
-/*    border: 2px solid black;*/
-/*    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;*/
-/*}*/
-
-/*#b12 {*/
-/*    width: 220px;*/
-/*    height: 150px;*/
-/*    position: absolute;*/
-/*    right: 180px;*/
-/*    top: calc(275% - 30px);*/
-/*    border: 2px solid black;*/
-/*}*/
-
-/*#pos {*/
-/*    width: 220px;*/
-/*    height: 150px;*/
-/*}*/
-
-/*#github05 {*/
-/*    width: 40px;*/
-/*    height: 40px;*/
-/*    position: absolute;*/
-/*    right: 141px;*/
-/*    top: calc(279% - 20px);*/
-/*}*/
-
-/*#pro06 {*/
-/*    position: absolute;*/
-/*    right: 240px;*/
-/*    top: calc(265% - 30px);*/
-/*    font-family: 'Phudu', cursive;*/
-/*    font-size: x-large;*/
-/*    background: linear-gradient(to right top,#D980FA,#0652DD);*/
-/*    -webkit-text-fill-color: transparent;*/
-/*    -webkit-background-clip:text;*/
-/*}*/
-
-
 
 /*========== Responsive typography ==========*/
 @media screen and (min-width: 1120px) {
@@ -1065,11 +796,7 @@ a:before{
 .box .edu{
     position: relative;
     top: -50px;
-<<<<<<< HEAD
-    left: 5px;
-=======
     left: 3px;
->>>>>>> 2263a63 (added)
 
 }
 .box .edu01{
@@ -1093,13 +820,9 @@ a:before{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip:text;
 }
-
-<<<<<<< HEAD
-=======
 .box:hover h3{
 
 }
->>>>>>> 2263a63 (added)
 .box h4{
     display: block;
     width:100%;
@@ -1476,411 +1199,411 @@ a:before{
 
 /*-------------------------------  media query -------------------*/
 
-@media (max-width: 1170px) {
-    #icon{
-        width: 1150px;
-    }
-    #box{
-        width:250px ;
+/*@media (max-width: 1170px) {*/
+/*    #icon{*/
+/*        width: 1150px;*/
+/*    }*/
+/*    #box{*/
+/*        width:250px ;*/
 
-    }
-    #img{
-        width: 200px;
-        top:130px;
-        right: 130px;
-    }
-    #header{
-        top: 60px;
-        left: 70px;
-    }
-    #name{
-        top: 150px;
-        left: 170px;
-        font-size: 40px;
-    }
-    #position{
-        left: 170px;
-        top: 220px;
-    }
-    #b{
-        top: 340px;
-        left: 170px;
-    }
-    .container{
-        left: 380px;
-    }
+/*    }*/
+/*    #img{*/
+/*        width: 200px;*/
+/*        top:130px;*/
+/*        right: 130px;*/
+/*    }*/
+/*    #header{*/
+/*        top: 60px;*/
+/*        left: 70px;*/
+/*    }*/
+/*    #name{*/
+/*        top: 150px;*/
+/*        left: 170px;*/
+/*        font-size: 40px;*/
+/*    }*/
+/*    #position{*/
+/*        left: 170px;*/
+/*        top: 220px;*/
+/*    }*/
+/*    #b{*/
+/*        top: 340px;*/
+/*        left: 170px;*/
+/*    }*/
+/*    .container{*/
+/*        left: 380px;*/
+/*    }*/
 
-    /*-----------------  About me --------------*/
+/*    !*-----------------  About me --------------*!*/
 
-    #box03{
-        left: 100px;
-    }
-    #img05{
-        left: 150px;
-    }
-    #line04{
-        left: 550px;
-    }
-    #aboutMe{
-        font-size: 180px;
-        left: 600px;
-        top: 660px;
-    }
-    #name01{
-        left: 600px;
-        top: 750px;
-        font-size:50px;
-    }
-    #text03{
-        left: 600px;
-        top: 900px;
-    }
-    #btn{
-        top:calc(195% - 20px) ;
-    }
+/*    #box03{*/
+/*        left: 100px;*/
+/*    }*/
+/*    #img05{*/
+/*        left: 150px;*/
+/*    }*/
+/*    #line04{*/
+/*        left: 550px;*/
+/*    }*/
+/*    #aboutMe{*/
+/*        font-size: 180px;*/
+/*        left: 600px;*/
+/*        top: 660px;*/
+/*    }*/
+/*    #name01{*/
+/*        left: 600px;*/
+/*        top: 750px;*/
+/*        font-size:50px;*/
+/*    }*/
+/*    #text03{*/
+/*        left: 600px;*/
+/*        top: 900px;*/
+/*    }*/
+/*    #btn{*/
+/*        top:calc(195% - 20px) ;*/
+/*    }*/
 
-    /*-----------------  Project --------------*/
+/*    !*-----------------  Project --------------*!*/
 
-    #b01{
-        left: 190px;
-    }
-    #b02{
-        left: 150px;
-    }
-    #pro01{
-        left: 150px;
-        font-size:20px;
-    }
-    #github{
-        left: 373px;
-    }
-    #b03{
-        left: 500px;
-    }
-    #b04{
-        left: 460px;
-    }
-    #pro02{
-        left: 460px;
-        font-size:20px;
-    }
-    #github01{
-        left: 683px;
-    }
-    #b05{
-        right: 130px;
-    }
-    #b06{
-        right: 170px;
-    }
-    #github02{
-        right: 130px;
-    }
-    #pro03{
-        right: 218px;
-        font-size:20px;
-    }
-    #pro04{
-        left: 150px;
-        font-size:20px;
-    }
-    #b07{
-        left: 190px;
-    }
-    #b08{
-        left: 150px;
-    }
-    #github03{
-        left: 373px;
-        font-size:20px;
-    }
-    #b09{
-        left: 500px;
-    }
-    #b10{
-        left: 460px;
-    }
-    #pro05{
-        left: 455px;
-        font-size:20px;
-    }
-    #github04{
-        left: 683px;
-    }
-    #b11{
-        right: 130px;
-    }
-    #b12{
-        right: 170px;
-    }
-    #github05{
-        right: 130px;
-    }
-    #pro06 {
-        right: 275px;
-        font-size:20px;
-    }
-    /*-----------------  Assignment --------------*/
-    #assignment01{
-        font-size: 180px;
-        left: 160px;
-        top: calc(350% - 10px);
-    }
-    .review-box{
-        left: 280px;
-    }
+/*    #b01{*/
+/*        left: 190px;*/
+/*    }*/
+/*    #b02{*/
+/*        left: 150px;*/
+/*    }*/
+/*    #pro01{*/
+/*        left: 150px;*/
+/*        font-size:20px;*/
+/*    }*/
+/*    #github{*/
+/*        left: 373px;*/
+/*    }*/
+/*    #b03{*/
+/*        left: 500px;*/
+/*    }*/
+/*    #b04{*/
+/*        left: 460px;*/
+/*    }*/
+/*    #pro02{*/
+/*        left: 460px;*/
+/*        font-size:20px;*/
+/*    }*/
+/*    #github01{*/
+/*        left: 683px;*/
+/*    }*/
+/*    #b05{*/
+/*        right: 130px;*/
+/*    }*/
+/*    #b06{*/
+/*        right: 170px;*/
+/*    }*/
+/*    #github02{*/
+/*        right: 130px;*/
+/*    }*/
+/*    #pro03{*/
+/*        right: 218px;*/
+/*        font-size:20px;*/
+/*    }*/
+/*    #pro04{*/
+/*        left: 150px;*/
+/*        font-size:20px;*/
+/*    }*/
+/*    #b07{*/
+/*        left: 190px;*/
+/*    }*/
+/*    #b08{*/
+/*        left: 150px;*/
+/*    }*/
+/*    #github03{*/
+/*        left: 373px;*/
+/*        font-size:20px;*/
+/*    }*/
+/*    #b09{*/
+/*        left: 500px;*/
+/*    }*/
+/*    #b10{*/
+/*        left: 460px;*/
+/*    }*/
+/*    #pro05{*/
+/*        left: 455px;*/
+/*        font-size:20px;*/
+/*    }*/
+/*    #github04{*/
+/*        left: 683px;*/
+/*    }*/
+/*    #b11{*/
+/*        right: 130px;*/
+/*    }*/
+/*    #b12{*/
+/*        right: 170px;*/
+/*    }*/
+/*    #github05{*/
+/*        right: 130px;*/
+/*    }*/
+/*    #pro06 {*/
+/*        right: 275px;*/
+/*        font-size:20px;*/
+/*    }*/
+/*    !*-----------------  Assignment --------------*!*/
+/*    #assignment01{*/
+/*        font-size: 180px;*/
+/*        left: 160px;*/
+/*        top: calc(350% - 10px);*/
+/*    }*/
+/*    .review-box{*/
+/*        left: 280px;*/
+/*    }*/
 
-    /*-----------------  Skills --------------*/
-    #education{
-        left: 180px;
-    }
-    #Re-03{
-        left: 150px;
-    }
-    #Re-04{
-        left: 190px;
-    }
-    #liner01{
-        right: 170px;
-    }
-    #liner{
-        right: 300px;
-    }
-    #r-01{
-        right: 260px;
-        width: 90px;
-        height: 90px;
-    }
-    #java{
-        width: 90px;
-        height: 90px;
-    }
-    #r-02{
-        right: 280px;
-        width: 90px;
-        height: 90px;
-    }
-    #css{
-        width: 90px;
-        height: 90px;
-    }
-    #r-03{
-        right: 260px;
-        width: 90px;
-        height: 90px;
-    }
-    #js{
-        width: 90px;
-        height: 90px;
-    }
-    #r-04{
-        right: 130px;
-        width: 90px;
-        height: 90px;
-    }
-    #sql{
-        width: 90px;
-        height: 90px;
-    }
-    #r-05{
-        right: 130px;
-        width: 90px;
-        height: 90px;
-    }
-    #html{
-        width: 90px;
-        height: 90px;
-    }
-    #r-06{
-        right: 160px;
-        width: 150px;
-        height: 90px;
-    }
-    #vs{
-        width: 150px;
-        height: 90px;
-    }
+/*    !*-----------------  Skills --------------*!*/
+/*    #education{*/
+/*        left: 180px;*/
+/*    }*/
+/*    #Re-03{*/
+/*        left: 150px;*/
+/*    }*/
+/*    #Re-04{*/
+/*        left: 190px;*/
+/*    }*/
+/*    #liner01{*/
+/*        right: 170px;*/
+/*    }*/
+/*    #liner{*/
+/*        right: 300px;*/
+/*    }*/
+/*    #r-01{*/
+/*        right: 260px;*/
+/*        width: 90px;*/
+/*        height: 90px;*/
+/*    }*/
+/*    #java{*/
+/*        width: 90px;*/
+/*        height: 90px;*/
+/*    }*/
+/*    #r-02{*/
+/*        right: 280px;*/
+/*        width: 90px;*/
+/*        height: 90px;*/
+/*    }*/
+/*    #css{*/
+/*        width: 90px;*/
+/*        height: 90px;*/
+/*    }*/
+/*    #r-03{*/
+/*        right: 260px;*/
+/*        width: 90px;*/
+/*        height: 90px;*/
+/*    }*/
+/*    #js{*/
+/*        width: 90px;*/
+/*        height: 90px;*/
+/*    }*/
+/*    #r-04{*/
+/*        right: 130px;*/
+/*        width: 90px;*/
+/*        height: 90px;*/
+/*    }*/
+/*    #sql{*/
+/*        width: 90px;*/
+/*        height: 90px;*/
+/*    }*/
+/*    #r-05{*/
+/*        right: 130px;*/
+/*        width: 90px;*/
+/*        height: 90px;*/
+/*    }*/
+/*    #html{*/
+/*        width: 90px;*/
+/*        height: 90px;*/
+/*    }*/
+/*    #r-06{*/
+/*        right: 160px;*/
+/*        width: 150px;*/
+/*        height: 90px;*/
+/*    }*/
+/*    #vs{*/
+/*        width: 150px;*/
+/*        height: 90px;*/
+/*    }*/
 
-    /*-----------------  contact ----------------*/
-    #border04{
-        left: 150px;
-        width: calc(80% - 400px);
-    }
-    #border05{
-        width: 350px;
-        height: 400px;
-        top: calc(652% - 50px);
-    }
-    #border06{
-        right: 535px;
-        top: calc(650% - 50px);
-    }
-    .info{
-        top: calc(647% - 30px);
-        right:420px;
-    }
-    .contactForm{
-        left: 220px;
-    }
-    #con{
-        left: 200px;
-    }
-    .formBox .inputBox input,
-    .formBox .inputBox textarea{
-        width: 350px;
-        left: 0;
-    }
+/*    !*-----------------  contact ----------------*!*/
+/*    #border04{*/
+/*        left: 150px;*/
+/*        width: calc(80% - 400px);*/
+/*    }*/
+/*    #border05{*/
+/*        width: 350px;*/
+/*        height: 400px;*/
+/*        top: calc(652% - 50px);*/
+/*    }*/
+/*    #border06{*/
+/*        right: 535px;*/
+/*        top: calc(650% - 50px);*/
+/*    }*/
+/*    .info{*/
+/*        top: calc(647% - 30px);*/
+/*        right:420px;*/
+/*    }*/
+/*    .contactForm{*/
+/*        left: 220px;*/
+/*    }*/
+/*    #con{*/
+/*        left: 200px;*/
+/*    }*/
+/*    .formBox .inputBox input,*/
+/*    .formBox .inputBox textarea{*/
+/*        width: 350px;*/
+/*        left: 0;*/
+/*    }*/
 
-}
-
-
-@media(max-width: 1150px) {
-    #icon{
-        width: 1133px;
-    }
-    #icon02{
-        width: 1133px;
-    }
-    #name{
-        left: 170px;
-        font-size: 38px;
-    }
-          /*-----------------  About me --------------*/
-    #aboutMe{
-        font-size: 180px;
-    }
-    #name01{
-        left: 600px;
-        top: 800px;
-        font-size:45px;
-
-    }
-    #text03{
-        font-size:25px;
-        left: 590px;
-        top: 940px;
-    }
-    #btn{
-        top: 1200px;
-    }
-
-    /*-----------------  Project --------------*/
-
-    #pro02{
-        left: 440px;
-        font-size:20px;
-    }
-    #b03{
-        left: 490px;
-    }
-    #b04{
-        left: 450px;
-    }
-    #github01{
-        left: 673px;
-    }
-    #pro05{
-
-    }
-
-        /*-----------------  Assignment --------------*/
-    #assignment01{
-        left: 140px;
-    }
-    .review-box{
-        left: 260px;
-    }
-
-    /*-----------------  contact --------------*/
-    .formBox .inputBox input,
-    .formBox .inputBox textarea{
-        width: 350px;
-    }
-}
+/*}*/
 
 
+/*@media(max-width: 1150px) {*/
+/*    #icon{*/
+/*        width: 1133px;*/
+/*    }*/
+/*    #icon02{*/
+/*        width: 1133px;*/
+/*    }*/
+/*    #name{*/
+/*        left: 170px;*/
+/*        font-size: 38px;*/
+/*    }*/
+/*          !*-----------------  About me --------------*!*/
+/*    #aboutMe{*/
+/*        font-size: 180px;*/
+/*    }*/
+/*    #name01{*/
+/*        left: 600px;*/
+/*        top: 800px;*/
+/*        font-size:45px;*/
+
+/*    }*/
+/*    #text03{*/
+/*        font-size:25px;*/
+/*        left: 590px;*/
+/*        top: 940px;*/
+/*    }*/
+/*    #btn{*/
+/*        top: 1200px;*/
+/*    }*/
+
+/*    !*-----------------  Project --------------*!*/
+
+/*    #pro02{*/
+/*        left: 440px;*/
+/*        font-size:20px;*/
+/*    }*/
+/*    #b03{*/
+/*        left: 490px;*/
+/*    }*/
+/*    #b04{*/
+/*        left: 450px;*/
+/*    }*/
+/*    #github01{*/
+/*        left: 673px;*/
+/*    }*/
+/*    #pro05{*/
+
+/*    }*/
+
+/*        !*-----------------  Assignment --------------*!*/
+/*    #assignment01{*/
+/*        left: 140px;*/
+/*    }*/
+/*    .review-box{*/
+/*        left: 260px;*/
+/*    }*/
+
+/*    !*-----------------  contact --------------*!*/
+/*    .formBox .inputBox input,*/
+/*    .formBox .inputBox textarea{*/
+/*        width: 350px;*/
+/*    }*/
+/*}*/
 
 
-@media (max-width: 1140px) {
-    #icon{
-        width: 1120px;
-    }
-    #icon02{
-        width: 1120px;
-    }
-    #img{
-        width: 200px;
-        right: 110px;
-        top: 190px;
-    }
-    #header{
-        left:50px;
-        top: 40px;
-        font-size: 50px;
-    }
-    #name{
-        top: 130px;
-        left: 150px;
-        font-size: 38px;
-    }
-    #position{
-        top: 195px;
-        left: 150px;
-        font-size: 25px;
-    }
-    .container{
-        left: 300px;
-    }
-    .container .button{
-        height: 40px;
-        width: 40px;
-        left: 50px;
-    }
-    .container .button .icon{
-        height: 50px;
-        width: 50px;
-        margin-top: -1px;
-        margin-left: 3px;
-    }
-    .container .button span{
-        top: -60px;
-    }
-    #b{
-        left: 150px;
-        width: 100px;
-        top: 300px;
-    }
-    #text02{
-        margin-left: 10px;
-    }
-    #box03{
-        height: 370px;
-    }
-    #img05{
-        height: 310px;
-        width: 310px;
-    }
-    #line04{
-        left: 520px;
-    }
-    #aboutMe{
-        font-size: 160px;
-        left: 550px;
-        top: 670px;
-    }
-    #name01{
-        left: 560px;
-        top: 800px;
-        font-size:43px;
-    }
-    #text03{
-        left: 560px;
-    }
-    /*-----------------  contact --------------*/
-    .formBox .inputBox input,
-    .formBox .inputBox textarea{
-        width: 340px;
-    }
-}
+
+
+/*@media (max-width: 1140px) {*/
+/*    #icon{*/
+/*        width: 1120px;*/
+/*    }*/
+/*    #icon02{*/
+/*        width: 1120px;*/
+/*    }*/
+/*    #img{*/
+/*        width: 200px;*/
+/*        right: 110px;*/
+/*        top: 190px;*/
+/*    }*/
+/*    #header{*/
+/*        left:50px;*/
+/*        top: 40px;*/
+/*        font-size: 50px;*/
+/*    }*/
+/*    #name{*/
+/*        top: 130px;*/
+/*        left: 150px;*/
+/*        font-size: 38px;*/
+/*    }*/
+/*    #position{*/
+/*        top: 195px;*/
+/*        left: 150px;*/
+/*        font-size: 25px;*/
+/*    }*/
+/*    .container{*/
+/*        left: 300px;*/
+/*    }*/
+/*    .container .button{*/
+/*        height: 40px;*/
+/*        width: 40px;*/
+/*        left: 50px;*/
+/*    }*/
+/*    .container .button .icon{*/
+/*        height: 50px;*/
+/*        width: 50px;*/
+/*        margin-top: -1px;*/
+/*        margin-left: 3px;*/
+/*    }*/
+/*    .container .button span{*/
+/*        top: -60px;*/
+/*    }*/
+/*    #b{*/
+/*        left: 150px;*/
+/*        width: 100px;*/
+/*        top: 300px;*/
+/*    }*/
+/*    #text02{*/
+/*        margin-left: 10px;*/
+/*    }*/
+/*    #box03{*/
+/*        height: 370px;*/
+/*    }*/
+/*    #img05{*/
+/*        height: 310px;*/
+/*        width: 310px;*/
+/*    }*/
+/*    #line04{*/
+/*        left: 520px;*/
+/*    }*/
+/*    #aboutMe{*/
+/*        font-size: 160px;*/
+/*        left: 550px;*/
+/*        top: 670px;*/
+/*    }*/
+/*    #name01{*/
+/*        left: 560px;*/
+/*        top: 800px;*/
+/*        font-size:43px;*/
+/*    }*/
+/*    #text03{*/
+/*        left: 560px;*/
+/*    }*/
+/*    !*-----------------  contact --------------*!*/
+/*    .formBox .inputBox input,*/
+/*    .formBox .inputBox textarea{*/
+/*        width: 340px;*/
+/*    }*/
+/*}*/
 
 
