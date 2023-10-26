@@ -899,6 +899,42 @@ a:before{
     rotate: 45deg;
 }
 
+/*<!--      /////////////////////////// Gallery Page /////////////////////// -->*/
+
+#photo {
+    position: absolute;
+    left: 250px;
+    top: calc(505% - 30px);
+    color:black;
+    font-size: 70px;
+    font-family: 'Courier Prime', monospace;
+    font-style: italic;
+    text-shadow: 5px 5px 5px #7f8fa6;
+}
+
+#photo:hover {
+    background: linear-gradient(to left top,red,blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+}
+
+.hero{
+    position: absolute;
+    top: calc(528% - 30px);
+    width: 87%;
+    left: 100px;
+    height: 95vh;
+    overflow: hidden;
+
+}
+
+.hero .carousel{
+    width: 300px;
+    margin: 100px auto 0;
+    overflow: visible;
+
+}
+
 /*-------------------------------  media query -------------------*/
 
 /*@media (max-width: 1170px) {*/
