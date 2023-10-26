@@ -1065,7 +1065,11 @@ a:before{
 .box .edu{
     position: relative;
     top: -50px;
+<<<<<<< HEAD
     left: 5px;
+=======
+    left: 3px;
+>>>>>>> 2263a63 (added)
 
 }
 .box .edu01{
@@ -1090,6 +1094,12 @@ a:before{
     -webkit-background-clip:text;
 }
 
+<<<<<<< HEAD
+=======
+.box:hover h3{
+
+}
+>>>>>>> 2263a63 (added)
 .box h4{
     display: block;
     width:100%;
