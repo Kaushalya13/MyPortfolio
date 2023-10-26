@@ -935,6 +935,264 @@ a:before{
 
 }
 
+/*<!--      /////////////////////////// Contact us /////////////////////// -->*/
+
+
+#border03 {
+    width: calc(100% - 210px);
+    height: 530px;
+    border: 4px solid black;
+    position: absolute;
+    background-color: #F6F6F6;
+    top: calc(640% - 50px);
+    right: 100px;
+    box-shadow: 0 10px 10px 0 #535c68;
+}
+
+#border04 {
+    width: calc(80% - 400px);
+    height: 480px;
+    border: 1px solid dodgerblue;
+    position: absolute;
+    background-color: #48dbfb;
+    opacity: 0.4;
+    top: calc(645% - 50px);
+    left: 200px;
+    box-shadow: 0 10px 10px 0 #535c68;
+}
+
+#border05 {
+    width: 380px;
+    height: 430px;
+    border: 1px solid #006BE8;
+    position: absolute;
+    background-color: #060E18;
+    top: calc(649% - 50px);
+    right: 200px;
+}
+
+
+#border06{
+    width: 30px;
+    height: 30px;
+    /*border: 1px solid #006BE8;*/
+    position: absolute;
+    background-color: blue;;
+    top: calc(647% - 50px);
+    right: 563px;
+}
+#con {
+    position: absolute;
+    left: 250px;
+    top: calc(640% - 30px);
+    color:black;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #7f8fa6;
+}
+
+#con:hover {
+    background: linear-gradient(to left top,red,blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+}
+
+.info{
+    position: absolute;
+    color: white;
+    top: calc(650% - 30px);
+    right:440px;
+    font-size: 45px;
+}
+
+.contact{
+    position: absolute;
+    top: calc(665% - 30px);
+    right:190px;
+    font-size: 20px;
+    font-weight: 500;
+    color: blue;
+}
+
+.contact li{
+    position: relative;
+    list-style: none;
+    /*display: flex;*/
+    /*margin: 20px 0;*/
+    /*cursor: pointer;*/
+    /*align-items: flex-start;*/
+}
+
+#im{
+    position: absolute;
+    right: 310px;
+}
+
+#lo{
+    position: absolute;
+    right: 180px;
+    top: 10px;
+    color: #dfe6e9;
+}
+
+#im1{
+    position: absolute;
+    right: 310px;
+    top: 80px;
+}
+
+#lo1{
+    position: absolute;
+    right: 230px;
+    top: 80px;
+    color: #dfe6e9;
+    font-size: 25px;
+}
+
+#lo2{
+    position: absolute;
+    right: 24px;
+    top: 110px;
+    color: #dfe6e9;
+    font-size: 18px;
+}
+
+#im2{
+    position: absolute;
+    right: 310px;
+    top: 180px;
+}
+
+#lo3{
+    position: absolute;
+    right: 240px;
+    top: 180px;
+    color: #dfe6e9;
+    font-size: 18px;
+}
+
+#lo4{
+    position: absolute;
+    right: 160px;
+    top: 210px;
+    color: #dfe6e9;
+    font-size: 18px;
+}
+
+
+#sci{
+    position: absolute;
+    right: 130px;
+    top: calc(658% - 30px);
+    list-style: none;
+    align-content: space-between;
+}
+
+#pic{
+    margin: 0 0 15px 0;
+}
+
+#pic1{
+    margin: 0 0 15px 0;
+}
+
+#pic2{
+    margin: 0 0 15px 0;
+}
+
+#pic3{
+    margin: 0 0 15px 0;
+}
+
+#pic:hover{
+    transform: scale(1.5);
+}
+
+#pic1:hover{
+    transform: scale(1.5);
+}
+
+#pic2:hover{
+    transform: scale(1.5);
+}
+
+#pic3:hover{
+    transform: scale(1.5);
+}
+.contactForm{
+    position: absolute;
+    left: 250px;
+    top: calc(658% - 30px);
+}
+
+
+.formBox .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.formBox .inputBox input,
+.formBox .inputBox textarea{
+    width: 500px;
+    padding: 3px 0;
+    font-size: 16px;
+    margin: 10px -10px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    outline: none;
+    resize: none;
+    border-radius: 10px
+}
+
+.formBox .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 3px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: black;
+
+}
+
+.formBox .inputBox input:focus ~span,
+.formBox .inputBox input:valid ~span,
+.formBox .inputBox textarea:focus ~span,
+.formBox .inputBox textarea:valid ~span{
+    color: navy;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+
+.formBox .inputBox input[type="submit"]{
+    width: 100px;
+    height: 25px;
+    background: #44b2d3;
+    color: #060E18;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    cursor: pointer;
+    padding: 1px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.formBox .inputBox input[type="submit"]:hover{
+    background-color: black;
+    color: #dfe6e9;
+}
+#icon02 {
+    background: linear-gradient(to right bottom,#95a5a6,#3EBFF7);
+    position: absolute;
+    top: calc(690% - 30px);
+    width: 100%;
+    height: 250px;
+}
+
 /*-------------------------------  media query -------------------*/
 
 /*@media (max-width: 1170px) {*/
