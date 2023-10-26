@@ -234,6 +234,109 @@ a:before{
 
 }
 
+/*-------------------------------------------------- about me ---------------------------*/
+
+
+#box03 {
+    width: 200px;
+    height: 390px;
+    position: absolute;
+    background-color: #3EBFF7;
+
+    top: 830px;
+    left: 120px;
+    border-radius: 0 50px 50px 0;
+}
+#img05 {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    top: 860px;
+    left: 170px;
+    box-shadow: rgba(0, 0, 0, 0.15) 7.95px 9.95px 2.6px;
+}
+
+#line04 {
+    width: 4px;
+    height: 450px;
+    background-color:#b2bec3;
+    position: absolute;
+    left: 580px;
+    top: 800px;
+}
+
+#about {
+    position: absolute;
+    left: 250px;
+    top: calc(100% - 20px);
+    color:black;
+    font-size: 70px;
+    font-family: 'Courier Prime', monospace;
+    font-style: italic;
+    text-shadow: 5px 5px 5px #7f8fa6;
+
+}
+#about:hover {
+    background: linear-gradient(to left top,red,blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+}
+
+#aboutMe {
+    position: absolute;
+    left: 680px;
+    top: 640px;
+    font-size: 200px;
+    font-family: 'Josefin Slab', serif;
+    color: #dfe6e9;
+}
+#name01 {
+    position: absolute;
+    left: 640px;
+    top: 870px;
+    font-family: 'Black Ops One', cursive;
+    font-size: xxx-large;
+    color: #3EBFF7;
+}
+#text03 {
+    position: absolute;
+    left: 640px;
+    top: 970px;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size:30px;
+    color: #1e272e;
+}
+#btn {
+    position: absolute;
+    width: 140px;
+    height: 30px;
+    top:calc(188% - 20px) ;
+    border: 2px solid black;
+    right: 150px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background: #dfe6e9;
+
+    transition: .5s;
+}
+#btn:hover {
+    background-color: black;
+    /*width: 140px;*/
+}
+#cv{
+    position: absolute;
+    padding: 3px;
+    font-size:18px;
+    margin-left: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-right: 2px;
+}
+
+#cv:hover{
+    color: #dfe6e9;
+}
 /*-------------------------------  media query -------------------*/
 
 /*@media (max-width: 1170px) {*/
