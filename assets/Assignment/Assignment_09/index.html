@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 09</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+
+    <style>
+        body {
+            background-color: black;
+        }
+        #sec {
+            width: fit-content;
+            height: fit-content;
+
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+        #box1 {
+            width: 80px;
+            height: 30px;
+            border: 1px solid black;
+            display: inline-block;
+            background-color: red;
+
+        }
+
+        #box2 {
+            width: 80px;
+            height: 30px;
+            border: 1px solid black;
+            display: inline-block;
+
+
+        }
+
+        #box3 {
+            width: 80px;
+            height: 30px;
+            border: 1px solid black;
+            display: inline-block;
+
+        }
+
+        #box4 {
+            width: 80px;
+            height: 30px;
+            border: 1px solid black;
+            display: inline-block;
+
+        }
+
+        #box5 {
+            width: 80px;
+            height: 30px;
+            border: 1px solid black;
+            display: inline-block;
+
+        }
+
+        #box6 {
+            width: 80px;
+            height: 30px;
+            border: 1px solid black;
+            display: inline-block;
+
+        }
+
+        #box7 {
+            width: 80px;
+            height: 30px;
+            border: 1px solid black;
+            display: inline-block;
+
+        }
+
+        #btn1 {
+            width: fit-content;
+            height: fit-content;
+
+            position: absolute;
+            left: 0;
+            top: 100px;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+<section id="sec" >
+    <div id="box1" class="light"></div>
+    <div id="box2" class="light"></div>
+    <div id="box3" class="light"></div>
+    <div id="box4" class="light"></div>
+    <div id="box5" class="light"></div>
+    <div id="box6" class="light"></div>
+    <div id="box7" class="light"></div>
+
+</section>
+
+<section id="btn1">
+    <button type="button">Start</button>
+    <button type="button">Stop</button>
+</section>
+
+<audio src="assets/audio/audio.mp3" id="audio"></audio>
+<script src="assets/lib/jquery.min.js"></script>
+
+<script>
+    var   current_light = -1;
+    var current_direction = "RIGHT";
+    var light_count = 7;
+    var intervalID = null;
+
+    var light_1 = {
+        background : "#E35335",
+        boxShadow:"0px 0px 10px 2px #FF4433"
+    }
+
+
+    const updateLight = () => {
+        $(".light").css("background","white");
+
+        if (current_direction === "RIGHT"){
+            current_light++;
+            $(".light").eq(current_light).css("background","#FF0000");
+            if (current_light-1>0){
+                $(".light").eq(current_light-1).css("background","#7E191B");
+            }
+            if (current_light === light_count-1){
+                current_direction = "LEFT";
+            }
+        }else {
+            current_light--;
+            $(".light").eq(current_light).css("background","red");
+            $(".light").eq(current_light+1).css("background","#AA4A44");
+            if (current_light === 0){
+                current_direction = "RIGHT";
+            }
+        }
+    }
+
+
+    $("button:first-child").on("click",() => {
+        if (intervalID === null){
+            intervalID = setInterval(updateLight,100);
+
+            $("#audio")[0].play();
+        }
+    });
+
+    $("button:last-child").on("click",() => {
+        clearInterval(intervalID);
+        intervalID = null;
+        $("#audio")[0].pause();
+    });
+
+
+</script>
+</body>
+</html>

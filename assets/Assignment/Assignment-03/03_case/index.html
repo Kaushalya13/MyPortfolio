@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case_03</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+
+    <style>
+        #circle {
+            width: 200px;
+            aspect-ratio: 1/1;
+            border: 20px solid gray;
+            border-radius: 100%;
+            position: fixed;
+
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+
+        }
+
+        #circle1 {
+            width: calc(100% - 20px);
+            aspect-ratio: 1/1;
+            border: 15px solid red;
+            border-radius: 100%;
+            position: absolute;
+
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        section {
+            position: absolute;
+            width: fit-content;
+
+            right: 0px;
+            left: 0px;
+            margin: auto;
+        }
+        section>div {
+            width: 190px;
+            aspect-ratio: 1/1;
+            background-color: orange;
+            border-radius: 100%;
+            position: relative;
+            margin: 315.4px 0px;
+
+        }
+        section>div:first-child {
+            background-color: royalblue;
+        }
+
+        section>div:nth-child(2) {
+            background-color: purple;
+        }
+
+        section>div:last-child {
+            background-color: indigo;
+        }
+
+        section>div>span {
+            position: absolute;
+            color: white;
+            width: fit-content;
+            height: fit-content;
+
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+
+<section>
+    <div>
+        <span>hello</span>
+    </div>
+    <div>
+        <span>Welcome</span>
+    </div>
+    <div>
+        <span>Institute of Software Engineering</span>
+    </div>
+</section>
+
+<div id="circle">
+    <div id="circle1"></div>
+</div>
+
+</body>
+</html>

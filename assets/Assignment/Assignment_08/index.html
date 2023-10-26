@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment_08</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+
+    <style>
+        h2{
+            position: relative;
+            display: inline-block;
+            padding: 0 75px 0 75px;
+            top: 300px;
+            left: 250px;
+            font-family: 'Poppins', sans-serif;
+            color: darkblue;
+        }
+
+        button{
+            position: relative;
+            width: 100px;
+            height: 30px;
+            top: 400px;
+            right: 350px;
+        }
+
+        button:hover{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<h2>A</h2>
+<h2>B</h2>
+<h2>C</h2>
+<h2>D</h2>
+<h2>E</h2>
+<h2>F</h2>
+
+<button type="button">Start</button>
+<button type="button">Stop</button>
+
+<script src="assets/lib/jquery.min.js"></script>
+<script>
+    let A=0;
+    let B=0;
+    let C=0;
+    let D=0;
+    let E=0;
+    let F=0;
+
+    var interval=null;
+    const letterChange = () =>{
+        if (A<5){
+            $("h2").eq(A+1).text("A");
+            A++;
+            if (A===5){
+                A=-1;
+            }
+        }
+
+        if (B<5){
+            $("h2").eq(B+2).text("B");
+            B++;
+            if (B===4){
+                B=-2;
+            }
+        }
+
+        if (C<5){
+            $("h2").eq(C+3).text("C");
+            C++;
+            if (C===3){
+                C=-3;
+            }
+        }
+
+        if (D<5){
+            $("h2").eq(D+4).text("D");
+            D++;
+            if (D===2){
+                D=-4;
+            }
+        }
+
+        if (E<5){
+            $("h2").eq(E+5).text("E");
+            E++;
+            if (E===1){
+                E=-5;
+            }
+        }
+
+        if (F<6){
+            $("h2").eq(F).text("F");
+            F++;
+            if (F===6){
+                F=-6;
+            }
+            console.log(F)
+        }
+    }
+
+    $("button").eq(0).on('click', () => {
+        if (interval===null) {
+            interval = setInterval(letterChange, 1500);
+        }
+    });
+
+    $("button").eq(1).on('click', () => {
+        clearInterval(interval);
+        interval=null
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case_01</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <style>
+        #box1 {
+            width: 50%;
+            height: 50%;
+            background-color: red;
+            position: absolute;
+
+        }
+
+        #box2 {
+            width: 50%;
+            height: 50%;
+            background-color: green;
+            position: absolute;
+            right: 0px;
+        }
+
+        #box3 {
+            width: 50%;
+            height: 50%;
+            background-color:darkorange;
+            position: absolute;
+            bottom: 0px;
+        }
+
+        #box4 {
+            width: 50%;
+            height: 50%;
+            background-color: deeppink;
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+        }
+
+        #box5 {
+            width: 150px;
+            height: 150px;
+            background-color: white;
+            position: absolute;
+
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+
+        }
+
+        #c1 {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-color: red;
+            position: absolute;
+
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        #box7 {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: calc(50% - 25px);
+            right: calc(50% - 25px);
+            background-color: red;
+        }
+
+
+
+        #box8 {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            position: absolute;
+
+            right: calc(50% - 25px);
+            top: calc(50% - 25px);
+        }
+
+        #box9 {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            position: absolute;
+
+            left: calc(50% - 25px);
+            bottom: calc(50% - 25px);
+        }
+
+        #box10 {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            position: absolute;
+
+            left: calc(50% - 25px);
+            bottom: calc(50% - 25px);
+        }
+
+        #c2 {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-color: white;
+            position: absolute;
+
+            right: calc(0% - 50px);
+            top: calc(0% - 50px);
+
+        }
+
+        #c3 {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-color:white;
+            position: absolute;
+
+            left:calc(0% - 50px);
+            top: 0;
+            bottom:0;
+            right:  calc(25% - 50);
+            margin: auto;
+        }
+
+        #c4 {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-color:white;
+            position: absolute;
+
+            left: calc(50% - 50px);
+            top: calc(0% - 50px);
+        }
+
+        #c5 {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-color: white;
+            position: absolute;
+
+            left:  calc(25% - 25);
+            top: 0;
+            bottom: 0;
+            right: calc(0% - 50px);
+            margin: auto;
+        }
+
+        #c6 {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-color: white;
+            position: absolute;
+
+            right: calc(50% - 50px);
+            bottom: calc(0% - 50px);
+
+        }
+
+
+        #c7 {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-color: white;
+            position: absolute;
+
+            left: calc(0% - 50px);
+            bottom:calc(0% - 50px);
+        }
+
+        #c8 {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-color:white;
+            position: absolute;
+
+            bottom: calc(0% - 50px);
+            right: calc(0% - 50px);
+        }
+
+        #c9 {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-color:white;
+            position: absolute;
+
+            left: calc(0% - 50px);
+            top: calc(0% - 50px);
+
+        }
+
+        #c10 {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-color:white;
+            position: absolute;
+
+            left: calc(25% - 50px);
+            top: calc(25% - 50px);
+        }
+
+        #c11 {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-color: white;
+            position: absolute;
+
+            right: calc(25% - 50px);
+            top: calc(25% - 50px);
+        }
+
+        #c12 {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-color: white;
+            position: absolute;
+
+            left: calc(25% - 50px);
+            bottom: calc(25% - 50px);
+        }
+
+
+        #c13 {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-color:white;
+            position: absolute;
+
+            right: calc(25% - 50px);
+            bottom: calc(25% - 50px);
+        }
+
+        body {
+            overflow: hidden;
+        }
+    </style>
+
+</head>
+<body>
+
+<div id="box1"></div>
+<div id="box2"></div>
+<div id="box3"></div>
+<div id="box4"></div>
+<div id="box5"></div>
+<div id="c1"></div>
+<div id="c2"></div>
+<div id="c3"></div>
+<div id="c4"></div>
+<div id="c5"></div>
+<div id="c6"></div>
+<div id="c7"></div>
+<div id="c8"></div>
+<div id="c9"></div>
+<div id="c10">
+    <div id="box7"></div>
+</div>
+<div id="c11">
+    <div id="box8"></div>
+</div>
+<div id="c12">
+    <div id="box9"></div>
+</div>
+<div id="c13">
+    <div id="box10"></div>
+</div>
+
+
+</body>
+</html>
