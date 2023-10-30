@@ -857,9 +857,9 @@ a:before{
     top: calc(444% - 50px);
     left: 270px;
     border-radius: 20px;
-    /*rotate: 45deg;*/
     border: 2px solid black;
 }
+
 
 #java{
     position: absolute;

@@ -1,17 +1,3 @@
-/*:root {*/
-/*    --bg-black-900: #f2f2fc;*/
-/*    --bg-black-100: #fdf9ff;*/
-/*    --bg-black-50: #e8dfec;*/
-/*    --text-black-900: #302e4d;*/
-/*    --text-black-700: #504e70;*/
-
-/*    !*--bg-black-900: #151515;*!*/
-/*    !*--bg-black-100: #222222;*!*/
-/*    !*--bg-black-50: #393939;*!*/
-/*    !*--text-black-900: #ffffff;*!*/
-/*    !*--text-black-700: #e9e9e9;*!*/
-/*}*/
-
 body {
     line-height: 1.5;
     font-size: 16px;
@@ -130,6 +116,7 @@ ul {
     text-align: center;
     transition: all 0.3s ease;
 }
+
 .skills .skill-item .skill-item-inner h1 {
     color:white;
 }
@@ -142,7 +129,6 @@ ul {
 
 .skills .skill-item .skill-item-inner .icon {
     position: relative;
-
     right: 0;
     top:2px;
     display: inline-block;
@@ -151,3 +137,4 @@ ul {
     font-size: 94px;
     color: white;
 }
+
