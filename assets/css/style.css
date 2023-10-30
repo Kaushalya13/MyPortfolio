@@ -794,7 +794,6 @@ a:before{
     box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
     transition: 1s;
     text-align: center;
-    /*background-color:#ffffff;*/
     background: linear-gradient(to right top,white,darkblue);
     border-radius: 0 25px 0 25px;
 
@@ -819,21 +818,24 @@ a:before{
     display: block;
     width:100%;
     border-radius: 5px;
-    top: -150px;
+    top: -170px;
     position: relative;
-    background: linear-gradient(to left top,black,black);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip:text;
+
 }
+
 .box:hover .level{
-    color: white;
+    color: transparent;
+}
+
+.box:hover .level01{
+    color: transparent;
 }
 
 .box h4{
     display: block;
     width:100%;
     border-radius: 5px;
-    top: -150px;
+    top: -160px;
     position: relative;
     color: #060E18;
 }
