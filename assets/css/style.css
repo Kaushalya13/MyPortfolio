@@ -3,6 +3,14 @@
     height: 200px;
 }
 
+.arrow-btn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 20px;
+    z-index: 999999;
+}
 #navigation {
     position: absolute;
     right: 25px;
@@ -775,7 +783,7 @@ a:before{
     flex-direction: row;
     justify-content: center;
     position: absolute;
-    top: calc(458% - 50px);
+    top: calc(455% - 50px);
     left: 70px;
 }
 
@@ -806,7 +814,6 @@ a:before{
 
 .box:hover .edu01{
     opacity:1;
-    text-decoration: none;
 }
 .box h3{
     display: block;
@@ -818,9 +825,10 @@ a:before{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip:text;
 }
-.box:hover h3{
-
+.box:hover .level{
+    color: white;
 }
+
 .box h4{
     display: block;
     width:100%;
@@ -845,60 +853,91 @@ a:before{
     position: absolute;
     background-color: white;
     top: calc(444% - 50px);
-    left: 300px;
-    rotate: 45deg;
+    left: 270px;
+    border-radius: 20px;
+    /*rotate: 45deg;*/
+    border: 2px solid black;
 }
 
+#java{
+    position: absolute;
+    top: -2px;
+    left: -5px;
+}
 #r-02 {
     width:100px;
     height: 100px;
     position: absolute;
-    background-color: #c8d6e5;
-    top: calc(432% - 50px);
-    left: 380px;
-    rotate: 45deg;
+    top: calc(430% - 50px);
+    background-color: white;
+    left: 400px;
+    border-radius: 20px;
+    border: 2px solid black;
 }
 
-#r-03 {
+#css{
+    position: absolute;
+    left: 5px;
+    top: 3px;
+}
+
+#js {
     width:100px;
     height: 100px;
     position: absolute;
-    background-color: #c8d6e5;
-    top: calc(456% - 50px);
-    left: 380px;
-    rotate: 45deg;
-}
+    top: calc(444% - 50px);
+    left: 530px;
+    border-radius: 20px;
+    border: 2px solid black;}
 
-#r-04 {
+#sql {
     width:100px;
     height: 100px;
     position: absolute;
-    background-color: #c8d6e5;
-    top: calc(438% - 50px);
-    right: 180px;
-    rotate: 45deg;
+    top: calc(430% - 50px);
+    border-radius: 20px;
+    right: 630px;
+    border: 2px solid black;
 }
 
 #r-05 {
     width:100px;
     height: 100px;
     position: absolute;
-    background-color: #c8d6e5;
-    top: calc(461% - 50px);
-    right: 180px;
-    rotate: 45deg;
+    background-color: white;
+    border-radius: 20px;
+    top: calc(444% - 50px);
+    right: 500px;
+    border: 2px solid black;
+}
+#html{
+    border-radius: 20px;
+    height: 90px;
+    top: 5px;
+    position: absolute;
 }
 
-#r-06 {
-    width:180px;
+
+#vs {
+    width:100px;
     height: 100px;
     position: absolute;
-    background-color: #c8d6e5;
-    top: calc(491% - 50px);
-    right: 245px;
-    rotate: 45deg;
+    border-radius: 20px;
+    top: calc(430% - 50px);
+    right: 370px;
+    border: 2px solid black;
 }
 
+#r-07 {
+    width:100px;
+    height: 100px;
+    position: absolute;
+    top: calc(444% - 50px);
+    background-color:white ;
+    right: 230px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
 /*<!--      /////////////////////////// Gallery Page /////////////////////// -->*/
 
 #photo {
@@ -1194,6 +1233,50 @@ a:before{
 }
 
 /*-------------------------------  media query -------------------*/
+@media screen and (max-width: 991px) {
+    main{
+        margin: auto;
+    }
+    #border {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #header {
+        top: 10px;
+        font-size: 30px;
+    }
+
+    #name {
+        top: 50px;
+        left: calc(50% - 151px);
+        font-size: 28px;
+    }
+
+    #position {
+        top: 80px;
+        left: calc(50% - 160px);
+        font-size: 24px
+    }
+    #box{
+        width: 75%;
+    }
+    #img{
+        position: absolute;
+        top: 110px;
+        left: 0;
+        width: 50%;
+        /*left: -15vw;*/
+    }
+    #border .container{
+        left: 0;
+    }
+    #b{
+        top:395px;
+    }
+}
 
 /*@media (max-width: 1170px) {*/
 /*    #icon{*/
