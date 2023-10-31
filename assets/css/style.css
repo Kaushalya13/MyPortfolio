@@ -1235,50 +1235,53 @@ a:before{
 }
 
 /*-------------------------------  media query -------------------*/
-@media screen and (max-width: 991px) {
-    main{
-        margin: auto;
-    }
-    #border {
-        position: absolute;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
 
-    #header {
-        top: 10px;
-        font-size: 30px;
-    }
 
-    #name {
-        top: 50px;
-        left: calc(50% - 151px);
-        font-size: 28px;
-    }
 
-    #position {
-        top: 80px;
-        left: calc(50% - 160px);
-        font-size: 24px
-    }
-    #box{
-        width: 75%;
-    }
-    #img{
-        position: absolute;
-        top: 110px;
-        left: 0;
-        width: 50%;
-        /*left: -15vw;*/
-    }
-    #border .container{
-        left: 0;
-    }
-    #b{
-        top:395px;
-    }
-}
+/*@media screen and (max-width: 991px) {*/
+/*    main{*/
+/*        margin: auto;*/
+/*    }*/
+/*    #border {*/
+/*        position: absolute;*/
+/*        display: flex;*/
+/*        flex-direction: row;*/
+/*        justify-content: center;*/
+/*    }*/
+
+/*    #header {*/
+/*        top: 10px;*/
+/*        font-size: 30px;*/
+/*    }*/
+
+/*    #name {*/
+/*        top: 50px;*/
+/*        left: calc(50% - 151px);*/
+/*        font-size: 28px;*/
+/*    }*/
+
+/*    #position {*/
+/*        top: 80px;*/
+/*        left: calc(50% - 160px);*/
+/*        font-size: 24px*/
+/*    }*/
+/*    #box{*/
+/*        width: 75%;*/
+/*    }*/
+/*    #img{*/
+/*        position: absolute;*/
+/*        top: 110px;*/
+/*        left: 0;*/
+/*        width: 50%;*/
+/*        !*left: -15vw;*!*/
+/*    }*/
+/*    #border .container{*/
+/*        left: 0;*/
+/*    }*/
+/*    #b{*/
+/*        top:395px;*/
+/*    }*/
+/*}*/
 
 /*@media (max-width: 1170px) {*/
 /*    #icon{*/
