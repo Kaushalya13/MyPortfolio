@@ -1344,9 +1344,17 @@ a:before{
         left: 628px;
     }
 
+    #name01{
+        top: 830px;
+    }
+
+    #text03{
+        top: 960px;
+        font-size: 28px;
+    }
     #btn{
-        top:calc(195% - 20px);
-        right: 90px;
+        top:calc(200% - 20px);
+        right: 100px;
     }
 
     /*-------------------------------  Project -------------------*/
@@ -1368,5 +1376,39 @@ a:before{
 
     .review-box{
         left: 290px;
+    }
+
+
+    /*-------------------------------  Skills -------------------*/
+
+    #education{
+        left: 200px;
+    }
+    #r-01{
+        left: 160px;
+    }
+
+    #r-02{
+        left: 290px;
+    }
+
+    #js{
+       left: 410px;
+    }
+
+    #sql{
+        left: 540px;
+    }
+
+    #r-05{
+        right: 390px;
+    }
+
+    #vs{
+        right: 260px;
+    }
+
+    #r-07{
+        right: 130px;
     }
 }
