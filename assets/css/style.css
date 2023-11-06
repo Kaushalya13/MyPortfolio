@@ -1490,4 +1490,27 @@ a:before{
         left: 270px;
     }
 
+
+    /*-------------------------------  Contact -------------------*/
+
+    #border05{
+        height: 360px;
+        top: calc(658% - 50px);
+        width: 350px;
+        right: 180px;
+    }
+
+    #sci{
+        right: 115px;
+    }
+
+    .contact{
+        right: 170px;
+        top: calc(670% - 30px);
+    }
+
+    .info{
+        top: calc(656% - 30px);
+        right: 430px;
+    }
 }
