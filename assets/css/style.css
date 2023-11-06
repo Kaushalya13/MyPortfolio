@@ -1013,15 +1013,15 @@ a:before{
 }
 
 
-#border06{
-    width: 30px;
-    height: 30px;
-    /*border: 1px solid #006BE8;*/
-    position: absolute;
-    background-color: blue;;
-    top: calc(647% - 50px);
-    right: 563px;
-}
+/*#border06{*/
+/*    width: 30px;*/
+/*    height: 30px;*/
+/*    !*border: 1px solid #006BE8;*!*/
+/*    position: absolute;*/
+/*    background-color: blue;;*/
+/*    top: calc(647% - 50px);*/
+/*    right: 563px;*/
+/*}*/
 #con {
     position: absolute;
     left: 250px;
@@ -1411,4 +1411,35 @@ a:before{
     #r-07{
         right: 130px;
     }
+
+
+    /*-------------------------------  Contact -------------------*/
+
+    #border04{
+        left: 170px;
+    }
+
+    #border05{
+        height: 380px;
+        top: calc(655% - 50px);
+        width: 350px;
+    }
+
+    .info{
+        top: calc(653% - 30px);
+        right: 440px;
+    }
+
+    .contact{
+        top: calc(668% - 30px);
+    }
+
+    .formBox .inputBox input{
+        width: 320px;
+    }
+    .formBox .inputBox textarea{
+        width: 320px;
+    }
+
+
 }
