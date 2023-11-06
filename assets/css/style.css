@@ -1368,6 +1368,10 @@ a:before{
         width: 270px;
     }
 
+    .card__button{
+        left: 100px;
+    }
+
     /*-------------------------------  Assignment -------------------*/
 
     #assignment01{
@@ -1455,5 +1459,27 @@ a:before{
 
     .container{
         left: 400px;
+    }
+
+
+    /*-------------------------------  About me -------------------*/
+
+    #aboutMe{
+        left: 610px;
+    }
+
+
+    /*-------------------------------  Project -------------------*/
+
+    .card__img{
+        width: 260px;
+    }
+
+    .card__data{
+        width: 250px;
+    }
+
+    .card__button{
+        left: 90px;
     }
 }
