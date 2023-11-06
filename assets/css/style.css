@@ -1358,4 +1358,15 @@ a:before{
     .card__data{
         width: 270px;
     }
+
+    /*-------------------------------  Assignment -------------------*/
+
+    #assignment01{
+        font-size: 180px;
+        left: 170px;
+    }
+
+    .review-box{
+        left: 290px;
+    }
 }
