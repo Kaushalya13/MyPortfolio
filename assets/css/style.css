@@ -1482,4 +1482,12 @@ a:before{
     .card__button{
         left: 90px;
     }
+
+
+    /*-------------------------------  Assignment -------------------*/
+
+    .review-box{
+        left: 270px;
+    }
+
 }
