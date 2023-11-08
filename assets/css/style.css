@@ -1711,6 +1711,10 @@ a:before{
 }
 
 
+
+
+
+
 @media (max-width: 1070px) {
     #icon{
         width: 1048px;
@@ -1768,6 +1772,17 @@ a:before{
 
     #btn{
         right: 100px;
+    }
+
+
+    /*-------------------------------  Assignment-------------------*/
+
+    #Main-Assignment{
+        left: 180px;
+    }
+
+    .review-box{
+        left: 210px;
     }
 
 
@@ -1832,3 +1847,6 @@ a:before{
 
     }
 }
+
+
+
