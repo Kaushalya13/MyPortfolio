@@ -1220,78 +1220,6 @@ a:before{
 
 /*-------------------------------  media query -------------------*/
 
-/*@media (max-width: 1140px) {*/
-/*    #icon{*/
-/*        width: 1120px;*/
-/*    }*/
-/*    #icon02{*/
-/*        width: 1120px;*/
-/*    }*/
-/*    #img{*/
-/*        width: 200px;*/
-/*        right: 110px;*/
-/*        top: 190px;*/
-/*    }*/
-/*    #header{*/
-/*        left:50px;*/
-/*        top: 40px;*/
-/*        font-size: 50px;*/
-/*    }*/
-/*    #name{*/
-/*        top: 130px;*/
-/*        left: 150px;*/
-/*        font-size: 38px;*/
-/*    }*/
-/*    #position{*/
-/*        top: 195px;*/
-/*        left: 150px;*/
-/*        font-size: 25px;*/
-/*    }*/
-/*    .container{*/
-/*        left: 300px;*/
-/*    }*/
-/*    .container .button{*/
-/*        height: 40px;*/
-/*        width: 40px;*/
-/*        left: 50px;*/
-/*    }*/
-/*    .container .button .icon{*/
-/*        height: 50px;*/
-/*        width: 50px;*/
-/*        margin-top: -1px;*/
-/*        margin-left: 3px;*/
-/*    }*/
-/*    .container .button span{*/
-/*        top: -60px;*/
-/*    }*/
-/*    #b{*/
-/*        left: 150px;*/
-/*        width: 100px;*/
-/*        top: 300px;*/
-/*    }*/
-/*    #text02{*/
-/*        margin-left: 10px;*/
-/*    }*/
-/*    #box03{*/
-/*        height: 370px;*/
-/*    }*/
-/*    #img05{*/
-/*        height: 310px;*/
-/*        width: 310px;*/
-/*    }*/
-/*    #line04{*/
-/*        left: 520px;*/
-/*    }*/
-/*    #aboutMe{*/
-/*        font-size: 160px;*/
-/*        left: 550px;*/
-/*        top: 670px;*/
-/*    }*/
-/*    #name01{*/
-/*        left: 560px;*/
-/*        top: 800px;*/
-/*        font-si
- */
 
 @media (max-width: 1170px) {
     #header{
@@ -1892,6 +1820,30 @@ a:before{
         left: 300px;
     }
 
+    /*-------------------------------  About me-------------------*/
+
+    #box03{
+        width: 150px;
+        height: 340px;
+    }
+
+    #img05{
+        width: 270px;
+        height: 270px;
+    }
+
+    #name01{
+        left: 530px;
+        font-size: 45px;
+    }
+    #text03{
+        left: 530px;
+        font-size:25px;
+    }
+
+    #btn{
+        top:1230px;
+    }
     /*-------------------------------  Project-------------------*/
 
     .contain{
