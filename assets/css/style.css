@@ -317,8 +317,6 @@ a:before{
 .card__article {
     position: relative;
     overflow: hidden;
-    /*border: 3px solid black;*/
-    /*border-radius: 1.8rem;*/
 }
 
 .card__img {
@@ -459,22 +457,22 @@ a:before{
 }
 
 /* For large devices */
-@media screen and (min-width: 1120px) {
-    .container {
-        height: 100vh;
-    }
+/*@media screen and (min-width: 1120px) {*/
+/*    .container {*/
+/*        height: 100vh;*/
+/*    }*/
 
-    .card__container {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .card__img {
-        width: 348px;
-    }
-    .card__data {
-        width: 316px;
-        padding-inline: 2.5rem;
-    }
-}
+/*    .card__container {*/
+/*        grid-template-columns: repeat(3, 1fr);*/
+/*    }*/
+/*    .card__img {*/
+/*        width: 348px;*/
+/*    }*/
+/*    .card__data {*/
+/*        width: 316px;*/
+/*        padding-inline: 2.5rem;*/
+/*    }*/
+/*}*/
 
 /*-------------------------------------------------- about me ---------------------------*/
 
@@ -1581,16 +1579,20 @@ a:before{
 
     /*-------------------------------  Project -------------------*/
 
+    .contain{
+        left: 180px;
+    }
     .card__container{
         display: grid;
         row-gap: 3.8rem;
     }
     .card__img{
-        width: 250px;
+        width: 90%;
     }
 
     .card__data{
-        width: 230px;
+        width: 250px;
+        left: -40px;
     }
 
     .card__button{
