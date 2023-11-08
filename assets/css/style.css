@@ -1010,16 +1010,6 @@ a:before{
     right: 200px;
 }
 
-
-/*#border06{*/
-/*    width: 30px;*/
-/*    height: 30px;*/
-/*    !*border: 1px solid #006BE8;*!*/
-/*    position: absolute;*/
-/*    background-color: blue;;*/
-/*    top: calc(647% - 50px);*/
-/*    right: 563px;*/
-/*}*/
 #con {
     position: absolute;
     left: 250px;
@@ -1587,7 +1577,7 @@ a:before{
     }
     .card__container{
         display: grid;
-        row-gap: 3.8rem;
+        row-gap: 3.4rem;
     }
     .card__img{
         width: 90%;
@@ -1651,10 +1641,52 @@ a:before{
         top: calc(446% - 50px);
     }
 
+    /*-------------------------------  Gallery -------------------*/
+
+    #photo{
+        top: calc(590% - 30px);
+    }
+    .hero{
+        top: calc(600% - 30px);
+        left: 80px;
+    }
+
     /*-------------------------------  Contact -------------------*/
 
+    #icon02{
+        top: calc(750% - 30px);
+    }
+
+    #sci{
+        top: calc(720% - 30px);
+    }
+    #border03{
+        top: calc(700% - 50px);
+    }
+
+    #border04{
+        top: calc(705% - 50px);
+    }
+
+    #border05{
+        top: calc(715% - 50px);
+    }
+
+    #con{
+        top: calc(703% - 50px);
+        left: 210px;
+    }
+
+    .info{
+        top: calc(713% - 30px);
+    }
+
+    .contact{
+        top: calc(728% - 30px);
+    }
     .contactForm{
         left: 228px;
+        top: calc(720% - 30px);
     }
 }
 
