@@ -375,7 +375,7 @@ a:before{
 }
 
 .card__button:hover {
-    /*text-decoration: underline;*/
+
     font-weight: bold;
 
 }
@@ -1598,11 +1598,15 @@ a:before{
     }
 
     .card__button{
-        left: 90px;
+        left: 80px;
+        font-size: 15px;
     }
 
-
-    /*-------------------------------  Assignment -------------------*/
+    .card__button:hover{
+        font-weight: normal;
+        color: #0a53be;
+    }
+        /*-------------------------------  Assignment -------------------*/
 
     #assignment01{
         left: 110px;
