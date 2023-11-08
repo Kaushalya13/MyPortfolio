@@ -1859,10 +1859,44 @@ a:before{
         width: 1008px;
     }
 
+    #header{
+        left: 50px;
+    }
+
+    #name {
+        left: 110px;
+        top: 130px;
+        font-size: 40px;
+    }
+
+    #position{
+        left:110px;
+        top: 200px;
+        font-size: 24.5px;
+    }
+    #box{
+        width: 200px;
+    }
+
+    #b{
+        left: 110px;
+    }
+    #img{
+        top: 175px;
+        right: 50px;
+        height: 250px;
+        width: 200px;
+    }
+
+    .container{
+        left: 300px;
+    }
+
     /*-------------------------------  Project-------------------*/
 
     .contain{
         left: 150px;
+        font-size: 45px;
     }
 
     /*-------------------------------  Assignment-------------------*/
