@@ -1850,3 +1850,29 @@ a:before{
 
 
 
+@media (max-width: 1024px) {
+    #icon{
+        width: 1008px;
+    }
+
+    #icon02{
+        width: 1008px;
+    }
+
+    /*-------------------------------  Project-------------------*/
+
+    .contain{
+        left: 150px;
+    }
+
+    /*-------------------------------  Assignment-------------------*/
+
+    #assignment01{
+        font-size: 160px;
+        left: 110px;
+    }
+
+    .review-box{
+        left: 180px;
+    }
+}
