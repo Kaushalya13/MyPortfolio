@@ -1518,6 +1518,8 @@ a:before{
 }
 
 
+
+
 @media (max-width: 1110px) {
     #header{
         left: 50px;
@@ -1592,7 +1594,7 @@ a:before{
     }
 
     .card__data{
-        width: 250px;
+        width: 230px;
     }
 
     .card__button{
@@ -1600,6 +1602,14 @@ a:before{
     }
 
 
+    /*-------------------------------  Assignment -------------------*/
+
+    #assignment01{
+        left: 110px;
+    }
+    .review-box{
+        left: 240px;
+    }
 
     /*-------------------------------  Skills -------------------*/
 
