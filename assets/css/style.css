@@ -1656,3 +1656,53 @@ a:before{
         left: 228px;
     }
 }
+
+
+@media (max-width: 1070px) {
+    #icon{
+        width: 1048px;
+    }
+
+    #icon02{
+        width: 1048px;
+    }
+
+
+    #name{
+        font-size: 38px;
+    }
+    /*-------------------------------  About me -------------------*/
+
+    #aboutMe{
+        font-size: 165px;
+        left: 530px;
+        top: 700px;
+    }
+
+    #box03{
+        left: 100px;
+        height: 340px;
+    }
+
+    #img05{
+        left: 140px;
+        width: 280px;
+        height: 280px;
+    }
+
+    #line04{
+        left: 480px;
+    }
+
+    #name01{
+        left: 530px;
+    }
+
+    #text03{
+        left: 530px;
+    }
+
+    #btn{
+        right: 100px;
+    }
+}
