@@ -1613,6 +1613,10 @@ a:before{
 
     /*-------------------------------  Skills -------------------*/
 
+    #education{
+        font-size: 67px;
+        left: 170px;
+    }
     .content{
         left: 60px;
     }
