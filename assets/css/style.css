@@ -1781,12 +1781,12 @@ a:before{
     /*-------------------------------  Gallery-------------------*/
 
     #photo{
-        left: 180px;
+        left: 190px;
     }
 
 
     .hero{
-        width: 80%;
+        width: 85%;
     }
 
     /*-------------------------------  Contact-------------------*/
@@ -1798,18 +1798,21 @@ a:before{
     #border05{
         width:300px ;
         height: 380px;
-        top: calc(655% - 50px);
+        top: calc(715% - 50px);
     }
 
     .info{
-        top: calc(652% - 30px);
-        right: 380px;
+        top: calc(713% - 30px);
+        right:380px;
     }
 
     .contact{
-        top: calc(668% - 30px);
-        right:160px;
-        font-size: 18px;
+        top: calc(728% - 30px);
+    }
+
+    .contactForm{
+        left: 228px;
+        top: calc(720% - 30px);
     }
 
     #im{
@@ -1825,7 +1828,7 @@ a:before{
         right: 285px;
     }
     .contact li{
-        left:0;
+        left:10px;
 
     }
 }
