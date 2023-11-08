@@ -1890,4 +1890,29 @@ a:before{
     #vs{
         right: 230px;
     }
+
+
+
+    /*-------------------------------  Contact-------------------*/
+
+
+    #border05{
+        height: 350px;
+        top: calc(720% - 50px);
+    }
+
+    .info{
+        top: calc(718% - 30px);
+    }
+
+
+    .contact{
+        top: calc(732% - 30px);
+    }
+    .formBox .inputBox input{
+        width: 290px;
+    }
+    .formBox .inputBox textarea{
+        width: 290px;
+    }
 }
