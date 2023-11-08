@@ -1861,4 +1861,33 @@ a:before{
     .review-box{
         left: 180px;
     }
+
+
+    /*-------------------------------  Skills-------------------*/
+
+    #education{
+        left: 145px;
+        font-size: 65px;
+    }
+
+    #r-02{
+        left: 270px;
+    }
+
+    #js{
+        left: 370px;
+    }
+
+
+    #sql{
+        left: 480px;
+    }
+
+    #r-05{
+        right: 330px;
+    }
+
+    #vs{
+        right: 230px;
+    }
 }
