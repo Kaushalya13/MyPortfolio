@@ -1005,7 +1005,7 @@ a:before{
 #border05 {
     width: 380px;
     height: 430px;
-    border: 1px solid #006BE8;
+    border: 1px solid #060E18;
     position: absolute;
     background-color: #060E18;
     top: calc(649% - 50px);
@@ -1052,16 +1052,12 @@ a:before{
     right:190px;
     font-size: 20px;
     font-weight: 500;
-    color: blue;
+    /*color: blue;*/
 }
 
 .contact li{
     position: relative;
     list-style: none;
-    /*display: flex;*/
-    /*margin: 20px 0;*/
-    /*cursor: pointer;*/
-    /*align-items: flex-start;*/
 }
 
 #im{
@@ -1720,5 +1716,45 @@ a:before{
 
     .hero{
         width: 80%;
+    }
+
+    /*-------------------------------  Contact-------------------*/
+
+    #con{
+        left: 220px;
+    }
+
+    #border05{
+        width:300px ;
+        height: 380px;
+        top: calc(655% - 50px);
+    }
+
+    .info{
+        top: calc(652% - 30px);
+        right: 380px;
+    }
+
+    .contact{
+        top: calc(668% - 30px);
+        right:160px;
+        font-size: 18px;
+    }
+
+    #im{
+        position: absolute;
+        right: 285px;
+    }
+
+    #im1{
+        right: 285px;
+    }
+
+    #im2{
+        right: 285px;
+    }
+    .contact li{
+        left:0;
+
     }
 }
