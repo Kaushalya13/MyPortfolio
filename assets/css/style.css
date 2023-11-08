@@ -1622,38 +1622,43 @@ a:before{
         font-size: 67px;
         left: 170px;
     }
+
     .content{
         left: 60px;
     }
 
-
     #r-01 {
-
-        top: calc(446% - 50px);
+        top: calc(515% - 50px);
     }
+
     #r-05 {
         right: 360px;
-        top: calc(446% - 50px);
+        top: calc(515% - 50px);
     }
 
+    #r-02{
+        top: calc(498% - 50px);
+    }
     #js{
-        top: calc(446% - 50px);
+        top: calc(515% - 50px);
     }
 
     #sql{
         left: 525px;
+        top: calc(498% - 50px);
     }
 
     #vs{
         right: 240px;
+        top: calc(498% - 50px);
     }
 
     #r-07{
-        top: calc(446% - 50px);
+        top: calc(515% - 50px);
     }
 
     .content{
-        top: calc(520% - 50px);
+        top: calc(523% - 50px);
     }
 
     /*-------------------------------  Gallery -------------------*/
