@@ -1668,8 +1668,17 @@ a:before{
         font-size: 38px;
     }
 
+    .container{
+        left: 320px;
+    }
+
 
     /*-------------------------------  About me -------------------*/
+
+    #about{
+        left: 180px;
+    }
+
 
     #aboutMe{
         font-size: 165px;
