@@ -2012,4 +2012,21 @@ a:before{
     #sql{
         left: 435px;
     }
+
+
+    /*-------------------------------  Contact-------------------*/
+
+    #con{
+        font-size: 45px;
+        left: 170px;
+    }
+
+    #border04{
+        left: 150px;
+    }
+
+    .contactForm{
+        left: 191px;
+    }
+
 }
