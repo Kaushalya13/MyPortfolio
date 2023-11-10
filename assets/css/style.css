@@ -457,7 +457,7 @@ a:before{
 
  /*For large devices*/
 @media screen and (min-width: 1120px) {
-    .container {
+    .contain {
         height: 100vh;
     }
 
@@ -2029,4 +2029,55 @@ a:before{
         left: 191px;
     }
 
+}
+
+@media (max-width: 940px) {
+    #icon{
+        width: 923px;
+    }
+
+    #icon02{
+        width: 923px;
+    }
+
+    /*-------------------------------  About me-------------------*/
+
+    #aboutMe{
+        font-size: 140px;
+        top: 710px;
+    }
+
+    #header{
+        font-size: 42px;
+    }
+
+    #name{
+        font-size: 35px;
+    }
+
+    #position{
+        font-size: 23px;
+        top: 190px;
+    }
+
+
+    .container{
+        left: 250px;
+    }
+
+    .container .button{
+        height: 40px;
+        width: 40px;
+    }
+
+    .container .button .icon{
+        height: 50px;
+        width: 50px;
+        margin-left: 2.5px;
+        margin-top: -1px;
+    }
+
+    .container .button h3{
+        top: -60px;
+    }
 }
