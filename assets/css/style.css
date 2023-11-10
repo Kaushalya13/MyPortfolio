@@ -2040,6 +2040,27 @@ a:before{
         width: 923px;
     }
 
+    .container{
+        left: 250px;
+    }
+
+    .container .button{
+        height: 40px;
+        width: 40px;
+    }
+
+    .container .button .icon{
+        height: 50px;
+        width: 50px;
+        margin-left: 2.5px;
+        margin-top: -1px;
+    }
+
+    .container .button h3{
+        top: -60px;
+    }
+
+
     /*-------------------------------  About me-------------------*/
 
     #aboutMe{
@@ -2061,23 +2082,21 @@ a:before{
     }
 
 
-    .container{
-        left: 250px;
+
+
+    /*-------------------------------  Project -------------------*/
+
+    .card__img{
+        width: 80%;
     }
 
-    .container .button{
-        height: 40px;
-        width: 40px;
+    .card__data{
+        width: 230px;
+        left: -67px;
     }
 
-    .container .button .icon{
-        height: 50px;
-        width: 50px;
-        margin-left: 2.5px;
-        margin-top: -1px;
-    }
-
-    .container .button h3{
-        top: -60px;
+    .card__button{
+        left: 80px;
+        font-size: 15px;
     }
 }
