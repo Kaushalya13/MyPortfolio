@@ -11,6 +11,8 @@
     right: 20px;
     z-index: 999999;
 }
+
+
 #navigation {
     position: absolute;
     right: 25px;
@@ -57,6 +59,7 @@ a:before{
 #navigation>a:hover:before{
     width: 100%;
 }
+
 
 #border {
     width: calc(100% - 210px);
@@ -2398,5 +2401,17 @@ a:before{
     }
     .hero .carousel ul li img{
         height: 380px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    #icon{
+        width: 750px;
+    }
+
+    #icon02{
+        width: 750px;
     }
 }
