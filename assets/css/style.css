@@ -1951,4 +1951,24 @@ a:before{
         left: 140px;
         font-size: 63px;
     }
+
+
+    /*-------------------------------  Contact-------------------*/
+
+    #con{
+        left: 200px;
+    }
+
+    .formBox .inputBox input{
+        width: 280px;
+
+    }
+    .formBox .inputBox textarea{
+        width: 280px;
+    }
+
+    .contactForm{
+        left: 215px;
+
+    }
 }
