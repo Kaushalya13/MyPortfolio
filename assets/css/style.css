@@ -2119,4 +2119,13 @@ a:before{
         left: 130px;
         font-size: 60px;
     }
+
+
+    /*-------------------------------  Gallery  -------------------*/
+
+    .hero{
+        width: 85%;
+        left: 90px;
+        height: 90vh;
+    }
 }
