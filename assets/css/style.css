@@ -1794,11 +1794,11 @@ a:before{
 
 @media (max-width: 1024px) {
     #icon{
-        width: 1008px;
+        width: 1000px;
     }
 
     #icon02{
-        width: 1008px;
+        width: 1000px;
     }
 
     #header{
@@ -1932,12 +1932,8 @@ a:before{
 
     .contact{
         top: calc(732% - 30px);
-        right: 465px;
     }
 
-    .contact li span img {
-       display: none;
-    }
 
     .formBox .inputBox input{
         width: 290px;
@@ -1995,19 +1991,6 @@ a:before{
     }
     .formBox .inputBox textarea{
         width: 280px;
-    }
-
-    .contact{
-        right: 460px;
-    }
-
-    .contact li{
-        right: 220px;
-        font-size: 19px;
-    }
-
-    .contact li span img {
-        display: none;
     }
 
     .contactForm{
@@ -2069,17 +2052,7 @@ a:before{
         left: 150px;
     }
 
-    .contact{
-        right: 450px;
-    }
 
-    .contact li{
-        font-size: 18px;
-    }
-
-    .contact li span img {
-        display: none;
-    }
     .contactForm{
         left: 191px;
     }
