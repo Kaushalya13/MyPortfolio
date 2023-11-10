@@ -2203,3 +2203,48 @@ a:before{
         left: 195px;
     }
 }
+
+
+@media (max-width: 900px) {
+    #icon{
+        width: 883px;
+    }
+
+    #icon02{
+        width: 883px;
+    }
+
+    #name {
+        left: 88px;
+    }
+
+    #header {
+        left: 36px;
+    }
+    #position {
+        left: 88px;
+    }
+
+    #img{
+        width: 187px;
+        height: 244px;
+        top: 184px;
+    }
+
+    #b {
+        left: 88px;
+    }
+
+    .container {
+        left: 214px;
+        top: 437px;
+    }
+
+    /*-------------------------------  About me-------------------*/
+
+    #aboutMe{
+        font-size: 120px;
+        top: 710px;
+    }
+
+}
