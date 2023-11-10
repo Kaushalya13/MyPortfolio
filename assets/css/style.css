@@ -2317,5 +2317,77 @@ a:before{
         height: 113px;
     }
 
+    #r-01{
+        width: 90px;
+        height: 90px;
+    }
 
+    #java{
+        width: 90px;
+        height: 90px;
+    }
+
+    #r-02{
+        width: 90px;
+        height: 90px;
+    }
+
+    #css{
+        width: 80px;
+        height: 80px;
+    }
+
+    #r-03{
+        width: 90px;
+        height: 90px;
+    }
+
+    #js{
+        width: 90px;
+        height: 90px;
+    }
+
+    #r-04{
+        width: 90px;
+        height: 90px;
+    }
+
+    #sql{
+        width: 90px;
+        height: 90px;
+        left: 425px;
+    }
+
+
+    #r-05{
+        width: 90px;
+        height: 90px;
+        right: 290px;
+    }
+
+    #html{
+        width: 90px;
+        height: 78px;
+    }
+
+    #r-06{
+        width: 90px;
+        height: 90px;
+    }
+
+    #vs{
+        width: 90px;
+        height: 90px;
+        right: 215px;
+    }
+
+    #r-07{
+        width: 90px;
+        height: 90px;
+    }
+
+    #photoshop{
+        width: 90px;
+        height: 90px;
+    }
 }
