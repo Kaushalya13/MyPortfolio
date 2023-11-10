@@ -2247,4 +2247,75 @@ a:before{
         top: 710px;
     }
 
+    #box03{
+        height: 325px;
+    }
+
+    #img05{
+        width: 260px;
+        height: 260px;
+    }
+
+    #line04 {
+        left: 450px;
+    }
+
+    #aboutMe {
+        font-size: 140px;
+        top: 747px;
+        left: 479px;
+    }
+    #name01{
+        font-size: 40px;
+        left: 480px;
+    }
+
+
+    /*-------------------------------  Project -------------------*/
+
+    .contain{
+        margin-inline: 1rem;
+    }
+    .card__img{
+        width: 75%;
+    }
+
+    .card__data{
+        left: -89px;
+    }
+
+
+    /*-------------------------------  Assignment -------------------*/
+
+    #assignment01{
+        left: 85px;
+        font-size: 148px;
+    }
+
+    .review-box{
+        width: 72%;
+    }
+
+
+
+    /*-------------------------------  Skills -------------------*/
+
+    #education{
+        font-size: 55px;
+    }
+
+    .content{
+        width: 75%;
+        font-size: 14px;
+    }
+
+    .box{
+        height: 170px;
+    }
+    .box .edu01{
+        width: 120px;
+        height: 113px;
+    }
+
+
 }
