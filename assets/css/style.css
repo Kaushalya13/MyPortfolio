@@ -1623,7 +1623,7 @@ a:before{
     }
 
     .contact{
-        top: calc(728% - 30px);
+        top: calc(725% - 30px);
     }
     .contactForm{
         left: 228px;
@@ -1753,19 +1753,40 @@ a:before{
 
     #im{
         position: absolute;
-        right: 285px;
+        right: 270px;
     }
 
+    #lo{
+        font-size: 19px;
+        right: 156px;
+    }
     #im1{
-        right: 285px;
+        right: 270px;
     }
 
+    #lo1{
+        font-size: 19px;
+        right: 212px;
+    }
+    #lo2{
+        font-size: 16px;
+        right: 20px;
+    }
     #im2{
-        right: 285px;
+        right: 270px;
+    }
+
+    #lo3{
+        font-size: 19px;
+        right: 209px;
+    }
+
+    #lo4{
+        font-size: 19px;
+        right: 131px;
     }
     .contact li{
         left:10px;
-
     }
 }
 
