@@ -2174,16 +2174,22 @@ a:before{
     }
 
     .contact{
-        top: calc(733% - 30px);
-        right: 430px;
+        top: calc(730% - 30px);
     }
 
-    .contact li{
-        font-size: 15px;
+    #im{
+        right: 255px;
+        width: 25px;
     }
 
-    .contact li span img {
-        display: none;
+    #im1{
+        right: 255px;
+        width: 25px;
+    }
+
+    #im2{
+        right: 255px;
+        width: 25px;
     }
     .formBox .inputBox input{
         width: 250px;
