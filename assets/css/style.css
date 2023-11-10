@@ -1944,4 +1944,11 @@ a:before{
         left: 520px;
         font-size:23px;
     }
+
+    /*-------------------------------  Skills-------------------*/
+
+    #education{
+        left: 140px;
+        font-size: 63px;
+    }
 }
