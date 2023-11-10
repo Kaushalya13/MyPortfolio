@@ -1920,7 +1920,6 @@ a:before{
         top: calc(718% - 30px);
     }
 
-
     .contact{
         top: calc(732% - 30px);
     }
@@ -2047,6 +2046,8 @@ a:before{
 
 }
 
+
+
 @media (max-width: 940px) {
     #icon{
         width: 923px;
@@ -2160,12 +2161,17 @@ a:before{
     }
 
     .contact{
-        top: calc(727% - 30px);
+        top: calc(733% - 30px);
+        right: 430px;
     }
 
     .contact li{
-        font-size: 17px;
+        font-size: 15px;
+            /*right: 600px;*/
+    }
 
+    .contact li span img {
+        display: none;
     }
     .formBox .inputBox input{
         width: 250px;
