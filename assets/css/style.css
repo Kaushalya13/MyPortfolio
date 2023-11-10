@@ -326,7 +326,6 @@ a:before{
 
 .card__data {
     width: 150px;
-    /*background: linear-gradient(to left top,#1e90ff,#dff9fb);*/
     background: linear-gradient(to right bottom,#3EBFF7,white);
     padding: 1.5rem 1rem;
     box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
@@ -1513,11 +1512,11 @@ a:before{
 
     .card__data{
         width: 250px;
-        left: -40px;
+
     }
 
     .card__button{
-        left: 80px;
+        left: 90px;
         font-size: 15px;
     }
 
@@ -1848,7 +1847,6 @@ a:before{
 
     .contain{
         left: 150px;
-        font-size: 45px;
     }
 
     /*-------------------------------  Assignment-------------------*/
@@ -1970,5 +1968,34 @@ a:before{
     .contactForm{
         left: 215px;
 
+    }
+}
+
+@media (max-width: 975px) {
+    #icon{
+        width: 958px;
+    }
+
+    #icon02{
+        width: 958px;
+    }
+
+
+    /*-------------------------------  About me-------------------*/
+
+    #aboutMe{
+        font-size: 160px;
+        top: 710px;
+    }
+
+
+    /*-------------------------------  Project-------------------*/
+
+    .contain{
+        left: 120px;
+    }
+
+    .card__data{
+        left: -35px;
     }
 }
