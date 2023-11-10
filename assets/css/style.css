@@ -1036,71 +1036,76 @@ a:before{
 .contact{
     position: absolute;
     top: calc(665% - 30px);
-    right:190px;
-    font-size: 20px;
-    font-weight: 500;
-    /*color: blue;*/
+    right:200px;
 }
 
 .contact li{
-    position: relative;
+    position: absolute;
+    top: calc(665% - 30px);
     list-style: none;
+    font-weight: 500;
+    font-size: 22px;
+    right: 310px;
+}
+
+.contact li span img {
+    right:30px;
 }
 
 #im{
     position: absolute;
-    right: 310px;
+    /*right: 310px;*/
 }
 
 #lo{
     position: absolute;
-    right: 180px;
+    /*right: 180px;*/
     top: 10px;
     color: #dfe6e9;
 }
 
 #im1{
     position: absolute;
-    right: 310px;
+    /*right: 310px;*/
     top: 80px;
 }
 
 #lo1{
     position: absolute;
-    right: 230px;
+    /*right: 230px;*/
     top: 80px;
     color: #dfe6e9;
-    font-size: 25px;
+    /*font-size: 25px;*/
 }
 
 #lo2{
     position: absolute;
-    right: 24px;
+    /*right: 24px;*/
     top: 110px;
     color: #dfe6e9;
-    font-size: 18px;
+    /*font-size: 18px;*/
 }
 
 #im2{
     position: absolute;
-    right: 310px;
+    /*right: 310px;*/
     top: 180px;
 }
 
 #lo3{
     position: absolute;
-    right: 240px;
+    /*right: 240px;*/
     top: 180px;
     color: #dfe6e9;
-    font-size: 18px;
+    /*font-size: 18px;*/
 }
 
 #lo4{
     position: absolute;
-    right: 160px;
+    /*right: 160px;*/
     top: 210px;
     color: #dfe6e9;
-    font-size: 18px;
+    /*font-size: 18px;*/
 }
 
 
@@ -1821,6 +1826,18 @@ a:before{
 
     /*-------------------------------  About me-------------------*/
 
+    .formBox .inputBox input{
+        width: 280px;
+
+    }
+    .formBox .inputBox textarea{
+        width: 280px;
+    }
+
+    .contactForm{
+        left: 215px;
+    }
+
     #box03{
         width: 150px;
         height: 340px;
@@ -1967,7 +1984,6 @@ a:before{
 
     .contactForm{
         left: 215px;
-
     }
 }
 
@@ -2127,5 +2143,39 @@ a:before{
         width: 85%;
         left: 90px;
         height: 90vh;
+    }
+
+
+    /*-------------------------------  Contact  -------------------*/
+
+    #border05{
+        width: 280px;
+        height: 380px;
+        top: calc(715% - 50px);
+    }
+
+    .info{
+        top: calc(715% - 30px);
+        right: 360px;
+    }
+
+    .contact{
+        top: calc(727% - 30px);
+    }
+
+    .contact li{
+        font-size: 17px;
+
+    }
+    .formBox .inputBox input{
+        width: 250px;
+
+    }
+    .formBox .inputBox textarea{
+        width: 250px;
+    }
+
+    .contactForm{
+        left: 195px;
     }
 }
