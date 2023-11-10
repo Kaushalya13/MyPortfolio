@@ -2390,4 +2390,13 @@ a:before{
         width: 90px;
         height: 90px;
     }
+
+    /*-------------------------------  Gallery -------------------*/
+
+    .hero{
+        height: 86vh;
+    }
+    .hero .carousel ul li img{
+        height: 380px;
+    }
 }
