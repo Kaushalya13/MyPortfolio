@@ -1916,3 +1916,32 @@ a:before{
         width: 290px;
     }
 }
+
+
+@media (max-width: 1000px) {
+    #icon{
+        width: 980px;
+    }
+
+    #icon02{
+        width: 980px;
+    }
+
+
+    /*-------------------------------  About me-------------------*/
+
+    #aboutMe{
+        font-size: 160px;
+        left: 520px;
+        top: 700px;
+    }
+
+    #name01{
+        left: 520px;
+        font-size: 43px;
+    }
+    #text03{
+        left: 520px;
+        font-size:23px;
+    }
+}
