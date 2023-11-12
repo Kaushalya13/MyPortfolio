@@ -2952,6 +2952,75 @@ a:before{
 
 
 
+
+@media (max-width: 650px) {
+    #icon{
+        width: 633px;
+    }
+
+    #icon02{
+        width: 633px;
+    }
+
+
+    #box{
+        width: 190px;
+    }
+
+    #header{
+        font-size: 36px;
+        top: 25px;
+        left: 20px;
+    }
+
+    #name{
+        font-size: 30px;
+        left: 60px;
+        top: 80px;
+    }
+
+
+    #position{
+        font-size: 18px;
+        left: 63px;
+        top: 130px;
+
+    }
+
+
+    #b{
+        top: 170px;
+        width: 110px;
+        height: 27px;
+        left: 63px;
+    }
+
+
+    #text02{
+        padding: 1.5px;
+        font-size: 16px;
+        left: 1px;
+    }
+
+
+    .container{
+        left: 8px;
+    }
+    /*-------------------------------   Assignment   -------------------*/
+
+    #Main-Assignment{
+        top: calc(500% - 50px);
+        left: 100px;
+    }
+
+    #assignment01{
+        font-size: 100px;
+        top: calc(560% - 50px);
+    }
+
+}
+
+
 /*@media (max-width:600px ) {*/
 /*    .header-main #sidemenu li i {*/
 /*        display: block;*/
