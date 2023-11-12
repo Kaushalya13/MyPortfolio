@@ -21,12 +21,12 @@ upArrow.onclick = function (){
 
 }
 
-var navigation = document.getElementById("navigation");
-
-function openmenu() {
-    navigation.style.right ="0";
-}
-
-function closemenu() {
-    navigation.style.left = "-200px";
-}
+// var navigation = document.getElementById("navigation");
+//
+// function openmenu() {
+//     navigation.style.right ="0";
+// }
+//
+// function closemenu() {
+//     navigation.style.left = "-200px";
+// }

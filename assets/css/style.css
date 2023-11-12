@@ -12,6 +12,73 @@
     z-index: 999999;
 }
 
+/*#main {*/
+/*    width: 100%;*/
+/*    height: 50px;*/
+/*    position: absolute;*/
+/*}*/
+
+
+/*.nav-bar ul li{*/
+/*    display: inline;*/
+/*}*/
+/*.nav-bar ul a {*/
+/*    margin: 20px;*/
+/*    color: #060E18;*/
+/*    font-size: large;*/
+/*    text-decoration: none;*/
+/*    position: relative;*/
+/*    padding: 0 10px;*/
+/*    letter-spacing: 0.5px;*/
+
+/*}*/
+
+/*#sidemenu {*/
+/*    position: absolute;*/
+/*    right: 25px;*/
+/*    padding: 9px;*/
+/*    margin-top: 15px;*/
+/*    list-style: none;*/
+/*}*/
+
+/*.navWord{*/
+/*    margin: 0 20px 0 20px;*/
+/*    text-decoration: none;*/
+/*    font-size: 20px;*/
+/*    color: black;*/
+/*    top: 5px;*/
+/*    position: relative;*/
+/*}*/
+
+
+/*#sidemenu>a:before,*/
+/*#sidemenu>a:after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    background: black;*/
+/*    width: 0;*/
+/*    height: 3px;*/
+/*    transition:0.5s;*/
+/*}*/
+
+/*a:after {*/
+/*    left: 0;*/
+/*    bottom: -10px;*/
+/*}*/
+
+/*a:before{*/
+/*    right: 0;*/
+/*    top: -10px;*/
+/*}*/
+
+/*#sidemenu>a:hover{*/
+/*    color: white;*/
+/*}*/
+
+/*#sidemenu>a:hover:after,*/
+/*#sidemenu>a:hover:before{*/
+/*    width: 100%;*/
+/*}*/
 
 #navigation {
     position: absolute;
@@ -2406,12 +2473,126 @@ a:before{
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
     #icon{
-        width: 750px;
+        width: 830px;
     }
 
     #icon02{
-        width: 750px;
+        width: 830px;
     }
+
+    #header{
+        font-size: 40px;
+        top: 55px;
+    }
+
+    #name{
+        font-size: 34px;
+        top: 110px;
+    }
+
+    #position{
+        top: 170px;
+        font-size: 20px;
+    }
+    #img{
+        height: 235px;
+    }
+
+    .container{
+        left: 190px;
+    }
+
+    #b{
+        width: 110px;
+    }
+
+    #text02{
+        left: -4px;
+    }
+    /*-------------------------------  About me -------------------*/
+
+    #box03{
+        width: 130px;
+        height: 290px;
+        left: 70px;
+    }
+
+    #img05{
+        width: 250px;
+        height: 250px;
+        left: 100px;
+        top: 850px;
+    }
+
+    #line04{
+        left: 400px;
+    }
+
+    #aboutMe{
+        font-size: 133px;
+        top: 758px;
+        left: 426px;
+    }
+
+    #name01{
+        font-size: 35px;
+        left: 433px;
+    }
+
+    #text03{
+        left: 433px;
+    }
+
+
 }
+
+
+
+/*@media (max-width:600px ) {*/
+/*    .header-main #sidemenu li i {*/
+/*        display: block;*/
+/*        font-size: 25px;*/
+/*    }*/
+/*    .header-main .nav-bar i{*/
+/*        display: block;*/
+/*        font-size: 25px;*/
+/*        position: absolute;*/
+/*        top: 20px;*/
+/*        right: 20px;*/
+/*        cursor: pointer;*/
+/*    }*/
+
+/*    .nav-bar ul {*/
+/*        background: #262626;*/
+/*        position: fixed;*/
+/*        top: 0;*/
+/*        right: -200px;*/
+/*        width: 200px;*/
+/*        height: 100vh;*/
+/*        padding-top: 50px;*/
+/*        z-index: 2;*/
+/*        transition: right 0.5s;*/
+/*    }*/
+
+/*    .nav-bar ul li {*/
+/*        display: block;*/
+/*        margin: 25px;*/
+/*    }*/
+/*    .nav-bar ul li a{*/
+/*        color: #FFFFFF;*/
+/*    }*/
+/*    #sidemenu{*/
+/*        margin-top: 0;*/
+/*        right: 0;*/
+/*    }*/
+
+/*    .nav-bar ul .fas {*/
+/*        position: absolute;*/
+/*        top: 25px;*/
+/*        left: 25px;*/
+/*        cursor: pointer;*/
+/*    }*/
+
+/*}*/
