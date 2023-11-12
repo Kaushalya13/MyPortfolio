@@ -2574,6 +2574,25 @@ a:before{
     /*-------------------------------   Skills   -------------------*/
 
 
+    #education{
+        font-size: 52px;
+    }
+
+    #js{
+        left: 320px;
+    }
+
+    #r-05{
+        right: 272px;
+    }
+
+    #sql{
+        left: 400px;
+    }
+
+    #vs{
+        right: 195px;
+    }
 }
 
 
