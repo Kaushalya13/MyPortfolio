@@ -2684,6 +2684,7 @@ a:before{
 
     #icon02{
         width: 733px;
+        top: calc(900% - 30px);
     }
 
     #img{
@@ -2757,6 +2758,85 @@ a:before{
     #assignment01{
         font-size: 130px;
     }
+
+    /*-------------------------------   Skills   -------------------*/
+
+
+
+    /*-------------------------------   Gallery   -------------------*/
+
+
+
+    /*-------------------------------   Contact   -------------------*/
+
+
+    #border03{
+        top: calc(850% - 50px);
+        width: calc(100% - 170px);
+        right: 80px;
+    }
+
+    #border04{
+        top: calc(853% - 50px);
+        width: 250px;
+        left: 120px;
+    }
+
+    #border05{
+        top: calc(863% - 50px);
+        left: 360px;
+        width: 240px;
+    }
+
+    #con{
+        top: calc(851% - 50px);
+        font-size: 31px;
+        left: 135px
+    }
+
+    .info{
+        top: calc(861% - 30px);
+        right: 260px;
+    }
+
+    .contact{
+        top: calc(875% - 30px);
+        right: 114px;
+    }
+
+    .contactForm {
+        top: calc(865% - 30px);
+        left: 145px;
+    }
+
+    #sci{
+        top: calc(875% - 30px);
+        right: 85px;
+    }
+
+    #pic{
+        width: 40px;
+    }
+
+    #pic1{
+        width: 40px;
+    }
+
+    #pic2{
+        width: 40px;
+    }
+
+    #pic3{
+        width: 40px;
+    }
+
+    .formBox .inputBox input{
+        width: 210px;
+    }
+    .formBox .inputBox textarea{
+        width: 210px;
+    }
+
 }
 
 
