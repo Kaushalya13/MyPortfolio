@@ -2960,11 +2960,11 @@ a:before{
         height: 40px;
     }
     #icon{
-        width: 633px;
+        width: 630px;
     }
 
     #icon02{
-        width: 633px;
+        width: 630px;
         top: calc(950% - 30px);
     }
 
@@ -3119,6 +3119,95 @@ a:before{
 
     /*-------------------------------   Contact   -------------------*/
 
+    #border03{
+        height: 800px;
+    }
+
+    #border04{
+        width: 370px;
+        left: 140px;
+        top: calc(858% - 50px);
+    }
+
+    #border05{
+        top: calc(927% - 50px);
+        height: 230px;
+        width: 320px;
+        left: 165px;
+    }
+
+    #con{
+        left: 201px;
+        font-size: 40px;
+        top: calc(855% - 50px);
+    }
+
+    .info{
+        top: calc(925% - 30px);
+        left: 181px;
+        font-size: 34px;
+    }
+
+    .contact{
+        top: calc(935% - 30px);
+        right: 165px;
+    }
+
+    #im{
+        top: -18px;
+    }
+
+    #lo{
+        top: -15px;
+    }
+
+    #im1{
+        top: 30px;
+    }
+
+
+    #lo1{
+        top: 30px;
+    }
+
+    #lo2{
+        top: 55px;
+        font-size: 16px;
+        right: -3px;
+    }
+
+
+    #im2{
+        top: 90px;
+    }
+
+    #lo3{
+        top: 90px;
+    }
+
+    #lo4{
+        top: 115px;
+    }
+
+    #sci{
+        display: inline-flex;
+        top: calc(964% - 50px);
+        left: 156px;
+
+
+    }
+
+    .contactForm {
+        top: calc(865% - 30px);
+        left: 195px;
+    }
+
+    .formBox .inputBox input{
+        width: 280px;
+    }
+    .formBox .inputBox textarea{
+        width: 280px;
+    }
 
 }
 
