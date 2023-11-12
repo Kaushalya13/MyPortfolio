@@ -2546,6 +2546,18 @@ a:before{
     }
 
 
+
+    /*-------------------------------   Project -------------------*/
+
+    .contain{
+        margin-inline: 3.4rem;
+        left: 90px;
+
+    }
+    .card__data{
+        left: -75px;
+        width: 220px;
+    }
 }
 
 
