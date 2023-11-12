@@ -3235,12 +3235,18 @@ a:before{
 
 
 @media (max-width: 550px) {
+    .arrow-btn{
+        right: 40px;
+    }
+
+
     #icon{
-        width: 530px;
+        width: 520px;
     }
 
     #icon02{
-        width: 530px;
+        width: 520px;
+        top: calc(1050% - 30px);
     }
 
     #box{
@@ -3322,7 +3328,7 @@ a:before{
     }
 
     #text03{
-        font-size: 22px;
+        font-size: 20px;
     }
 
     #btn{
@@ -3379,5 +3385,141 @@ a:before{
 
 
 
+    /*-------------------------------   Skills   -------------------*/
+
+    #border02 {
+        top: calc(610% - 50px);
+        height: 1432px;
+    }
+
+    #education{
+        font-size: 29px;
+        left: 105px;
+    }
+
+    #r-01{
+        left: 232px;
+        top: calc(618% - 50px);
+    }
+
+    #r-02{
+        top: calc(656% - 50px);
+        left: 108px;
+    }
+
+    #js{
+        left: 127px;
+        top: calc(636% - 50px);
+    }
+
+    #sql{
+        top: calc(656% - 50px);
+        left: 231px;
+    }
+
+
+    #r-05{
+        top: calc(636% - 50px);
+    }
+
+
+    #vs{
+        top: calc(636% - 50px);
+    }
+
+    #r-07{
+        top: calc(656% - 50px);
+        right: 90px;
+    }
+    .content{
+        top: calc(671% - 50px);
+        display: grid;
+        row-gap: 50px;
+        grid-template-columns: repeat(1, 1fr);
+        left: 150px;
+    }
+
+    /*-------------------------------   Gallery   -------------------*/
+
+    #photo{
+        top: calc(836% - 30px);
+        font-size: 60px;
+        left: 87px;
+    }
+
+    .hero{
+        top: calc(851% - 30px);
+        left: 30px;
+    }
+
+    .gallery{
+        width: 250px;
+        height: 250px;
+    }
+
+    .gallery1{
+        width: 500px;
+        height: 250px;
+    }
+    .gallery2{
+        width: 700px;
+        height: 250px;
+    }
+
+    .gallery3{
+        width: 250px;
+        height: 200px;
+    }
+
+
+    /*-------------------------------   Contact   -------------------*/
+
+    #border03{
+        top: calc(948% - 50px);
+    }
+
+    #border04{
+        top: calc(952% - 50px);
+        width: 311px;
+        left: 115px;
+    }
+
+    #border05{
+        top: calc(1023% - 50px);
+        width: 292px;
+        left: 125px;
+    }
+
+    #con{
+        top: calc(950% - 50px);
+        left: 139px;
+    }
+
+    .info{
+        top: calc(1021% - 30px);
+        left: 158px;
+    }
+
+    .contact{
+        top: calc(1033% - 30px);
+        right: 132px;
+    }
+
+    #sci{
+        top: calc(1063% - 50px);
+        left: 124px;
+    }
+
+    .contactForm {
+        top: calc(962% - 30px);
+        left: 143px;
+    }
+
+    .formBox .inputBox input{
+        width: 280px;
+    }
+    .formBox .inputBox textarea{
+        width: 280px;
+    }
 }
 
