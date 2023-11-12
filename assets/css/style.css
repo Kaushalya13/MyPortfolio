@@ -3523,3 +3523,25 @@ a:before{
     }
 }
 
+
+
+@media (max-width: 500px) {
+    #icon{
+        width: 480px;
+    }
+
+    #icon02{
+        width: 480px;
+    }
+
+    #box{
+        width: 266px;
+    }
+
+
+    /*-------------------------------   Assignment   -------------------*/
+
+    #assignment01{
+        font-size: 80px;
+    }
+}
