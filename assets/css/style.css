@@ -2746,20 +2746,63 @@ a:before{
 
     /*-------------------------------   Project   -------------------*/
 
+    #project01{
+        left: 140px;
+        top: calc(220% - 50px);
+    }
+
     #border01{
         height: 1700px;
+        top: calc(225% - 50px);
     }
+
     .contain{
         left: 180px;
+        top: calc(235% - 50px);
     }
+
+    .card__data{
+        left: -85px;
+    }
+
 
     /*-------------------------------   Assignment   -------------------*/
 
-    #assignment01{
-        font-size: 130px;
+    #Main-Assignment{
+        top: calc(500% - 50px);
+        left: 130px;
     }
 
-    /*-------------------------------   Skills   -------------------*/
+    #assignment01{
+        font-size: 120px;
+        top: calc(560% - 50px);
+    }
+
+    .review-box{
+        top: calc(530% - 50px);
+        width: 75%;
+        left: 100px;
+
+    }
+
+    .card p{
+        font-size: 13.5px;
+        font-weight: bold;
+    }
+
+    .card .button01{
+        height: 30px;
+        padding: 3px 16px;
+        font-size: 18px;
+    }
+
+    .card .button02{
+        height: 30px;
+        padding: 3px 16px;
+        font-size: 18px;
+    }
+
+        /*-------------------------------   Skills   -------------------*/
 
     #border02{
         top: calc(610% - 50px);
