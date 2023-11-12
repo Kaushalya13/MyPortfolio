@@ -2593,6 +2593,27 @@ a:before{
     #vs{
         right: 195px;
     }
+
+    /*-------------------------------   Gallery   -------------------*/
+
+    .gallery{
+        width: 300px;
+        height: 350px;
+    }
+
+    .gallery1{
+        width: 550px;
+        height: 350px;
+    }
+    .gallery2{
+        width: 750px;
+        height: 350px;
+    }
+
+    .gallery3{
+        width: 300px;
+        height: 350px;
+    }
 }
 
 
