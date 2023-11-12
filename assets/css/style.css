@@ -2614,9 +2614,81 @@ a:before{
         width: 300px;
         height: 350px;
     }
+
+
+    /*-------------------------------   Contact   -------------------*/
+
+    #border05{
+        left: 399px;
+        width: 250px;
+    }
+
+    .info{
+        right: 330px;
+    }
+    #con{
+        font-size: 35px;
+    }
+
+    #im{
+        right: 228px;
+    }
+
+    #lo{
+        right: 130px;
+    }
+
+    #im1{
+        right: 228px;
+    }
+
+    #lo1{
+        right: 185px;
+    }
+
+    #im2{
+        right: 228px;
+    }
+
+    #lo2{
+        right: 25px;
+        font-size: 14px;
+    }
+
+    #lo3{
+        right: 182px;
+    }
+
+    #lo4{
+        right: 102px;
+    }
+    .contactForm {
+        left: 175px;
+    }
+
+    .formBox .inputBox input{
+        width: 220px;
+    }
+    .formBox .inputBox textarea{
+        width: 220px;
+    }
 }
 
 
+
+
+@media (max-width: 700px) {
+    #icon{
+        width: 680px;
+    }
+
+    #icon02{
+        width: 680px;
+    }
+
+
+
+}
 
 /*@media (max-width:600px ) {*/
 /*    .header-main #sidemenu li i {*/
