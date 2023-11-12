@@ -2677,18 +2677,78 @@ a:before{
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     #icon{
-        width: 680px;
+        width: 733px;
     }
 
     #icon02{
-        width: 680px;
+        width: 733px;
     }
 
+    #img{
+        height: 216px;
+        top: 205px;
+    }
 
+    .container{
+        left: 60px;
+    }
 
+    #b{
+        top: 240px;
+    }
+    /*-------------------------------   About me   -------------------*/
+
+    #about{
+        left: 85px;
+    }
+
+    #aboutMe{
+        font-size: 110px;
+        left: 100px;
+        top: 1005px;
+    }
+
+    #box03{
+        top: 770px;
+        height: 270px;
+        left: 250px;
+    }
+
+    #img05{
+        top: 790px;
+        width: 230px;
+        height: 230px;
+        left: 280px;
+    }
+
+    #name01{
+        font-size: 25px;
+        left: 87px;
+        top: 1055px;
+    }
+
+    #text03{
+        top: 1100px;
+        left: 88px;
+    }
+    #line04{
+        display: none;
+    }
+
+    #btn{
+        top: 1250px;
+        right: 150px;
+    }
+    /*-------------------------------   project   -------------------*/
+
+    #assignment01{
+        font-size: 130px;
+    }
 }
+
+
 
 /*@media (max-width:600px ) {*/
 /*    .header-main #sidemenu li i {*/
