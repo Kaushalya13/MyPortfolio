@@ -2761,8 +2761,65 @@ a:before{
 
     /*-------------------------------   Skills   -------------------*/
 
+    #border02{
+        top: calc(610% - 50px);
+        height: 800px;
+    }
 
+    #education{
+        top: calc(608% - 50px);
+        font-size: 43px;
+    }
 
+    #r-01{
+        top: calc(625% - 50px);
+        left: 140px;
+    }
+
+    #r-02{
+        top: calc(645% - 50px);
+        left: 180px;
+    }
+
+    #js{
+        top: calc(625% - 50px);
+        left: 275px;
+    }
+
+    #sql{
+        top: calc(645% - 50px);
+        left: 320px;
+    }
+
+    #r-05{
+        top: calc(625% - 50px);
+        right: 250px;
+    }
+
+    #vs{
+        top: calc(625% - 50px);
+        right: 130px;
+    }
+
+    #r-07{
+        top: calc(645% - 50px);
+        right: 180px;
+    }
+
+    .box h3{
+        top: -145px;
+    }
+
+    .box h4{
+        top: -140px;
+    }
+
+    .content{
+        top: calc(650% - 50px);
+        display: grid;
+        row-gap: 50px;
+        grid-template-columns: repeat(2, 1fr);
+    }
     /*-------------------------------   Gallery   -------------------*/
 
     #photo{
