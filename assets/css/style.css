@@ -19,20 +19,6 @@
 /*}*/
 
 
-/*.nav-bar ul li{*/
-/*    display: inline;*/
-/*}*/
-/*.nav-bar ul a {*/
-/*    margin: 20px;*/
-/*    color: #060E18;*/
-/*    font-size: large;*/
-/*    text-decoration: none;*/
-/*    position: relative;*/
-/*    padding: 0 10px;*/
-/*    letter-spacing: 0.5px;*/
-
-/*}*/
-
 /*#sidemenu {*/
 /*    position: absolute;*/
 /*    right: 25px;*/
@@ -2968,6 +2954,41 @@ a:before{
         top: calc(950% - 30px);
     }
 
+    /*#navigation a{*/
+    /*    display: block;*/
+    /*    font-size: 25px;*/
+    /*}*/
+    /*.section .nav-bar i{*/
+    /*    display: block;*/
+    /*    font-size: 25px;*/
+    /*    position: absolute;*/
+    /*    top: 20px;*/
+    /*    right: 20px;*/
+    /*    cursor: pointer;*/
+
+    /*}*/
+
+    /*.nav-bar #navigation {*/
+    /*    background: lightblue;*/
+    /*    position: fixed;*/
+    /*    top:-15px;*/
+    /*    right: -200px;*/
+    /*    width: 200px;*/
+    /*    height: 97vh;*/
+    /*    padding-top: 50px;*/
+    /*    z-index: 2;*/
+    /*    transition: right 0.5s;*/
+    /*}*/
+
+    /*.nav-bar a {*/
+    /*    display: block;*/
+    /*    margin: 25px;*/
+    /*}*/
+
+    /*#navigation>a:before,*/
+    /*#navigation>a:after {*/
+    /*    content: none;*/
+    /*}*/
 
     #box{
         width: 190px;
@@ -3212,49 +3233,151 @@ a:before{
 }
 
 
-/*@media (max-width:600px ) {*/
-/*    .header-main #sidemenu li i {*/
-/*        display: block;*/
-/*        font-size: 25px;*/
-/*    }*/
-/*    .header-main .nav-bar i{*/
-/*        display: block;*/
-/*        font-size: 25px;*/
-/*        position: absolute;*/
-/*        top: 20px;*/
-/*        right: 20px;*/
-/*        cursor: pointer;*/
-/*    }*/
 
-/*    .nav-bar ul {*/
-/*        background: #262626;*/
-/*        position: fixed;*/
-/*        top: 0;*/
-/*        right: -200px;*/
-/*        width: 200px;*/
-/*        height: 100vh;*/
-/*        padding-top: 50px;*/
-/*        z-index: 2;*/
-/*        transition: right 0.5s;*/
-/*    }*/
+@media (max-width: 550px) {
+    #icon{
+        width: 530px;
+    }
 
-/*    .nav-bar ul li {*/
-/*        display: block;*/
-/*        margin: 25px;*/
-/*    }*/
-/*    .nav-bar ul li a{*/
-/*        color: #FFFFFF;*/
-/*    }*/
-/*    #sidemenu{*/
-/*        margin-top: 0;*/
-/*        right: 0;*/
-/*    }*/
+    #icon02{
+        width: 530px;
+    }
 
-/*    .nav-bar ul .fas {*/
-/*        position: absolute;*/
-/*        top: 25px;*/
-/*        left: 25px;*/
-/*        cursor: pointer;*/
-/*    }*/
+    #box{
+        width: 317px;
+        height: 200px;
+        top: 293px;
+    }
 
-/*}*/
+    #img{
+        top: -80px;
+    }
+
+    #name{
+        font-size: 22px;
+        left: 47px;
+    }
+
+    #position{
+        left: 47px;
+        font-size: 15px;
+    }
+
+    .container{
+        top: 445px;
+    }
+
+    .container .button{
+        width: 35px;
+        height: 35px;
+    }
+
+    .container .button .icon{
+        width: 35px;
+        height: 35px;
+        margin-top: -3.5px;
+        margin-left: 0;
+    }
+
+    .container .button h3{
+        top: -52px;
+        margin-left: 50px;
+    }
+    .container .button:hover{
+        width: 150px;
+    }
+
+
+    #b{
+        width: 90px;
+        height: 25px;
+        left: 47px;
+    }
+
+    #text02{
+        font-size: 14px;
+        left: -3px;
+    }
+
+
+
+    /*-------------------------------   About me   -------------------*/
+
+    #about {
+        font-size: 60px;
+    }
+
+    #box03{
+        left: 100px;
+    }
+
+    #img05{
+        left: 130px;
+    }
+
+    #aboutMe{
+        font-size: 106px;
+        top: 977px;
+        left: 155px;
+    }
+
+    #text03{
+        font-size: 22px;
+    }
+
+    #btn{
+        right: 58px;
+    }
+
+    /*-------------------------------   Project   -------------------*/
+
+    #project01{
+        font-size: 50px;
+    }
+
+    .contain{
+        left: 100px;
+    }
+
+
+    /*-------------------------------   Assignment   -------------------*/
+
+    #Main-Assignment{
+        font-size: 55px;
+        left: 68px;
+    }
+
+
+    #assignment01{
+        font-size: 90px;
+        left: 42px;
+    }
+
+    .review-box{
+        left: 78px;
+    }
+
+    .card{
+        padding: 15px;
+    }
+
+    .profile h2{
+        font-size: 22px;
+    }
+
+    .card .button01{
+        bottom: 28px;
+        height: 23px;
+        padding: 1px 16px;
+    }
+
+    .card .button02{
+        bottom: 28px;
+        height: 23px;
+        padding: 1px 16px;
+    }
+
+
+
+}
+
